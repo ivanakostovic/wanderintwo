@@ -4,6 +4,7 @@ layout: default
 
 {% include banner.html %}
 
+<!-- Intro Section -->
 <section>
   <!-- TO DO: add alt text -->
   <img src="{{page.map_flag}}" alt="">
@@ -11,3 +12,17 @@ layout: default
     {{page.description}}
   </p>
 </section>
+
+<!-- Recent Posts -->
+     <section>
+      <h2>
+        Recent Posts
+      </h2>
+      <div class="grid">
+      {% for post in site.posts %}
+        <div class="col-4_sm-12 padded-1">
+          {% include post-loop-item.html %}
+        </div>
+       {% endfor %}
+       </div>
+     </section>

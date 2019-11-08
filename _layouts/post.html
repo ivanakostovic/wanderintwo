@@ -54,11 +54,24 @@ layout: default
 <!-- Social Share -->
     {% include social-share.html %}
 
+<!-- Recent Posts -->
+     <section>
+      <h2>
+        Recent Posts
+      </h2>
+      <div class="grid">
+      {% for post in site.posts %}
+        <div class="col-6_sm-12 padded-1">
+          {% include post-loop-item.html %}
+        </div>
+       {% endfor %}
+       </div>
+     </section>
   </div>
 
   <div class="col-4_sm-12 padded-1 mob-hide sidebar">
 
-    <!-- sidebar box 1: About Us -->
+<!-- sidebar box 1: About Us -->
     <div>
       <div class="bg-image">
       </div>

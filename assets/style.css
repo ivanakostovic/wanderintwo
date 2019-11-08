@@ -687,6 +687,16 @@
   transform: rotateZ(45deg);
 }
 
+/* Post Page Styling */
+.hotel-listing{
+  display: block;
+  color: rgb(60,60,65);
+  text-decoration: none;
+  border: 1px solid rgb(60,60,65);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 

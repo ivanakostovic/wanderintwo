@@ -1,18 +1,5 @@
 ---
 layout: default
-accommodation:
-  - image:
-    type: Hostel
-    name: This is a hostel
-    description: Amazing hostel
-  - image:
-    type: Hotel
-    name: Best Hotel
-    description: This is a great hotel
-  - image:
-    type: Luxury
-    name: Hotel Ivana
-    description: This is a luxury hotel
 ---
 
 <section class="banner" style="background-image:url('{{page.image_path}}');">
@@ -26,43 +13,45 @@ accommodation:
     <!-- Page.type is a variable I created to represent either destinations or advice  -->
     <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
       {% for category in page.categories %}
-      <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
+        <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
       {% endfor %}
     </p> <!-- end categories -->
     <h2> {{page.sub-title}} </h2>
 
     {{content}}
 
-    {% if page.accommodation %}
-
-    <h2>
+    <!-- Accommodation Section -->
+    {% if page.accommodations %}
+      <h2>
       Accommodation in {{page.destination}}
-    </h2>
-
-    {% for item in page.accommodation %}
-
-    <div class="padded grid">
-      <!-- put stff here  -->
-
-        <div class="col-2_sm-12">
-          <img src="{{accommodation.image}}">
+      </h2>
+      <p>
+      {{page.accommodation-description}}
+      </p>
+      {% for accommodation in page.accommodations %}
+      <a href="{{accommodation.url}}" class="hotel-listing">
+        <div class="grid">
+        <!-- put stff here  -->
+          <div class="col-5_sm-12 bg-image" style="background-image: url({{accommodation.image}})">
+          </div>
+          <div class="col-7_sm-12 padded-1">
+            <h3>
+              {{accommodation.type}}: {{accommodation.name}}
+            </h3>
+            <p>
+              {{accommodation.description}}
+            </p>
+          </div>
+        <!-- stuff ends here -->
         </div>
-        <div class="col-5_sm-12">
-          <h3>
-            {{accommodation.type}}: {{accommodation.name}}
-          </h3>
-          <p>
-            {{accommodation.description}}
-          </p>
-        </div>
-      <!-- stuff ends here -->
-    </div>
-
-    {% endfor %}
-
+      </a>
+      {% endfor %}
+      <a href="{{accommodation.affiliate-link}}">
+        See more accommodation in {{page.destination}}
+      </a>
     {% endif %}
 
-
+<!-- Social Share -->
     {% include social-share.html %}
 
   </div>

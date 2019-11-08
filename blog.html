@@ -3,7 +3,7 @@ layout: default
 title: Blog Page
 meta-description:
 meta-keywords:
-featured-image_path: 
+featured-image_path:
 ---
 
 <section class="padded">
@@ -12,7 +12,9 @@ featured-image_path:
   <div class="grid blog-loop">
 
     {% for post in site.posts limit: 6 %}
+    
         {% include post-loop-item.html %}
+
     {% endfor %}
 
   </div>

@@ -3,6 +3,8 @@ permalink: /:slug
 collections:
   archives:
     output: true
+  destinations:
+    output: true
 
 _options:
   content:

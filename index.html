@@ -50,49 +50,40 @@ title: this is the most amazing homepage I have ever seen
 <!-- Spotlight Section TO DO: update ?-->
 <section>
   <h2>
-    Spotlight on {{"test"}}
+    Spotlight on
   </h2>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
   <div class="grid blog-loop">
+    {% assign filtered_posts = site.posts | where: 'spotlight', true %}
+
+    {% for post in filtered_posts limit:1 %}
     <div class="col-6_sm-12 padded-1">
-      <a href="{{'#'}}" class="blog-item">
-        <div class="bg-image" style="background-image:url('/images/cocktail.jpg')"> </div>
-        <h3> {{"post.title"}} </h3>
-        <p> {{"post.excerpt | strip_html | truncate:100" }} </p>
+      <a href="{{post.url}}" class="blog-item">
+        <div class="bg-image" style="background-image:url('{{post.image_path}}')"> </div>
+        <h3> {{post.title}} </h3>
+        <p> {{post.excerpt | strip_html | truncate:100 }} </p>
       </a>
     </div>
-
+    {% endfor %}
     <div class="col-6_sm-12 padded-1">
-      <div class="grid blog-loop">
-        <section class="light-bg">
-          <div class="grid  flex-flip">
-            <div class="col-6_sm-12 bg-image">
-            </div>
-            <div class="col-6_sm-12-middle padded">
-              <h3> This this a heading </h3>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="arrow" href="#"> > </a>
-            </div>
-          </div>
-          <div class="grid flex-flip">
-            <div class="col-6_sm-12 bg-image">
-            </div>
-            <div class="col-6_sm-12-middle padded">
-              <h3> This this a heading </h3>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="arrow" href="#"> > </a>
-            </div>
-          </div>
-        </section>
+      {% for post in filtered_posts limit:2 offset:1 %}
+      <div class="grid  flex-flip">
+        <div class="col-6_sm-12 bg-image">
+        </div>
+        <div class="col-6_sm-12-middle padded">
+          <h3> {{post.title}} </h3>
+          <p> {{post.excerpt | strip_html | truncate:100 }}
+          </p>
+          <a class="arrow" href="{{post.image_path}}"> > </a>
+        </div>
       </div>
+      {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+
 
 <!-- Products Section -->
 <section class="padded centered">

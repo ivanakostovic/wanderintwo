@@ -73,6 +73,11 @@
     margin-bottom:0;
   }
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   hr { /* this is a line element */
     border: none;
     border-bottom: 3px solid;

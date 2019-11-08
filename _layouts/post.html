@@ -83,16 +83,8 @@ accommodation:
     <!-- sidebar box 2: Recent Posts -->
 
 
-    <!-- sidebar box 3 -->
-    <div>
-      <h3> Categories </h3>
+    <!-- sidebar box 3: Bluehost Ad -->
 
-      <!-- this will output a list of all the categories on your site -->
-      {% for category in site.categories %}
-      <a href="/archives/{{category[0] | slugify }}" class="category"> {{category[0]}} </a>
-      {% endfor %}
-
-    </div>
 
   </div><!-- close sidebar -->
 </section>

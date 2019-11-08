@@ -1,9 +1,9 @@
-permalink: /:year/:title
+permalink: /:slug
 
 collections:
   archives:
     output: true
-    
+
 _options:
   content:
     styles: /assets/editor.css

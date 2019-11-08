@@ -1,5 +1,18 @@
 ---
 layout: default
+accommodation:
+  - image:
+    type: Hostel
+    name: This is a hostel
+    description: Amazing hostel
+  - image:
+    type: Hotel
+    name: Best Hotel
+    description: This is a great hotel
+  - image:
+    type: Luxury
+    name: Hotel Ivana
+    description: This is a luxury hotel
 ---
 
 <section class="banner" style="background-image:url('{{page.image_path}}');">
@@ -10,61 +23,76 @@ layout: default
 <section class="grid padded">
 
   <div class="col-8_sm-12 post-body padded-1">
-      <!-- Page.type is a variable I created to represent either destinations or advice  -->
-      <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
-        {% for category in page.categories %}
-          <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
-        {% endfor %}
-      </p> <!-- end categories -->
-      <h2> {{page.sub-title}} </h2>
-
-      <!-- this automatically outputs each category tag -->
-
-      {{content}}
-
-      {% if page.hotel-recommendations %}
-
-      <h2> Hotels in {{page.destination}}</h2>
-
-
-      {% for item in page.hotels %}
-      <div>
-          <!-- put stff here  -->
-
-      </div>
-
+    <!-- Page.type is a variable I created to represent either destinations or advice  -->
+    <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
+      {% for category in page.categories %}
+      <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
       {% endfor %}
+    </p> <!-- end categories -->
+    <h2> {{page.sub-title}} </h2>
 
-      {% endif %}
+    {{content}}
+
+    {% if page.accommodation %}
+
+    <h2>
+      Accommodation in {{page.destination}}
+    </h2>
+
+    {% for item in page.accommodation %}
+
+    <div class="padded grid">
+      <!-- put stff here  -->
+
+        <div class="col-2_sm-12">
+          <img src="{{accommodation.image}}">
+        </div>
+        <div class="col-5_sm-12">
+          <h3>
+            {{accommodation.type}}: {{accommodation.name}}
+          </h3>
+          <p>
+            {{accommodation.description}}
+          </p>
+        </div>
+      <!-- stuff ends here -->
+    </div>
+
+    {% endfor %}
+
+    {% endif %}
 
 
-      {% include social-share.html %}
+    {% include social-share.html %}
 
   </div>
 
   <div class="col-4_sm-12 padded-1 mob-hide sidebar">
 
-      <!-- sidebar box 1 -->
-      <div>
-        <h3> This is a sidebar box </h3>
-        <p> You can edit the content of the sidebar box in your post layout. </p>
+    <!-- sidebar box 1: About Us -->
+    <div>
+      <div class="bg-image">
       </div>
-
-      <!-- sidebar box 2 -->
-      <div>
-        <p> You could put anything you want in here, like links to your social or featured articles, a newsletter signup, etc </p>
+      <div class="padded">
+        <h3> This this a heading </h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <a class="arrow" href="#"> > </a>
       </div>
+    </div>
 
-      <!-- sidebar box 3 -->
-      <div>
-        <h3> Categories </h3>
+    <!-- sidebar box 2: Recent Posts -->
 
-        <!-- this will output a list of all the categories on your site -->
-        {% for category in site.categories %}
-          <a href="/archives/{{category[0] | slugify }}" class="category"> {{category[0]}} </a>
-        {% endfor %}
 
-      </div>
+    <!-- sidebar box 3 -->
+    <div>
+      <h3> Categories </h3>
+
+      <!-- this will output a list of all the categories on your site -->
+      {% for category in site.categories %}
+      <a href="/archives/{{category[0] | slugify }}" class="category"> {{category[0]}} </a>
+      {% endfor %}
+
+    </div>
 
   </div><!-- close sidebar -->
 </section>

@@ -14,19 +14,19 @@ title: this is the most amazing homepage I have ever seen
 {% include banner.html %}
 
 <!-- Recent Posts TO DO ask Tina difference between blog page and archive page-->
-     <section>
-      <h2>
-        Recent Posts
-      </h2>
-      <div class="grid blog-loop">
-      {% for post in site.posts %}
-        <div class="col-4_sm-12 padded-1">
-          {% include post-loop-item.html %}
-        </div>
-       {% endfor %}
-       </div>
-       <a class="button" href="/blog">See all posts</a>
-     </section>
+<section>
+  <h2>
+    Recent Posts
+  </h2>
+  <div class="grid blog-loop">
+    {% for post in site.posts %}
+    <div class="col-4_sm-12 padded-1">
+      {% include post-loop-item.html %}
+    </div>
+    {% endfor %}
+  </div>
+  <a class="button" href="/blog">See all posts</a>
+</section>
 
 <!-- Second banner TO DO: integrate featured blog post info -->
 <section class="banner" style="background-image:url('/images/pencils.jpg');">
@@ -47,7 +47,72 @@ title: this is the most amazing homepage I have ever seen
   </div>
 </section>
 
+<!-- Spotlight Section TO DO: update ?-->
+<section>
+  <h2>
+    Spotlight on {{"test"}}
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+  <div class="grid blog-loop">
+    <div class="col-6_sm-12 padded-1">
+      <a href="{{'#'}}" class="blog-item">
+        <div class="bg-image" style="background-image:url('/images/cocktail.jpg')"> </div>
+        <h3> {{"post.title"}} </h3>
+        <p> {{"post.excerpt | strip_html | truncate:100" }} </p>
+      </a>
+    </div>
 
+    <div class="col-6_sm-12 padded-1">
+      <div class="grid blog-loop">
+        <section class="light-bg">
+          <div class="grid  flex-flip">
+            <div class="col-6_sm-12 bg-image">
+            </div>
+            <div class="col-6_sm-12-middle padded">
+              <h3> This this a heading </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a class="arrow" href="#"> > </a>
+            </div>
+          </div>
+          <div class="grid flex-flip">
+            <div class="col-6_sm-12 bg-image">
+            </div>
+            <div class="col-6_sm-12-middle padded">
+              <h3> This this a heading </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a class="arrow" href="#"> > </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section class="padded centered">
+  <h2> Featured Online Courses </h2>
+  <div class="grid padded-1">
+    <div class="col-4_sm-12 padded-1">
+      <div class="bg-image" style="background-image:url('/images/person.png')">
+      </div>
+    </div>
+    <div class="col-4_sm-12 padded-1">
+      <div class="bg-image" style="background-image:url('/images/person.png')">
+      </div>
+    </div>
+    <div class="col-4_sm-12 padded-1">
+      <div class="bg-image" style="background-image:url('/images/person.png')">
+      </div>
+    </div>
+  </div>
+  <a class="button" href="/about-us">See All Online Courses</a>
+</section>
 
 <!-- Third banner -->
 <section class="banner" style="background-image:url('/images/pencils.jpg');">

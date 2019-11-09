@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tenth Blog Post
+title: Ultimate bali to gili trawangang guide (Travel, Hotel and 19 Things to Do)
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:

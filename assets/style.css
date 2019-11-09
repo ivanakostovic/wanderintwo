@@ -320,7 +320,7 @@
   }
 
   .mobile-menu ul{
-    list-style: none; 
+    list-style: none;
   }
 
 .mobile-menu ul ul{
@@ -432,6 +432,14 @@
     padding-bottom: 60%;
     margin-bottom: 0.5rem;
   }
+
+  .mixed-columns .bg-image {
+    margin-bottom: 0;
+  }
+.white-box {
+  border: 5px solid white;
+}
+
 
   .blog-loop img,
   .post-body img {

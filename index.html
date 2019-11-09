@@ -63,32 +63,11 @@ title: this is the most amazing homepage I have ever seen
     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
   </div>
-  <div class="grid blog-loop">
-    {% assign filtered_posts = site.posts | where: 'spotlight', true %}
 
-    {% for post in filtered_posts limit:1 %}
-    <div class="col-6_sm-12 padded-1">
-      <a href="{{post.url}}" class="blog-item">
-        <div class="bg-image bg-image-lg" style="background-image:url('{{post.image_path}}')"> </div>
-        <h3> {{post.title}} </h3>
-        <p> {{post.excerpt | strip_html | truncate:100 }} </p>
-      </a>
-    </div>
-    {% endfor %}
-    <div class="col-6_sm-12 padded-1">
-      {% for post in filtered_posts limit:2 offset:1 %}
-      <div class="grid  flex-flip">
-        <div class="col-6_sm-12 bg-image bg-image-sm">
-        </div>
-        <div class="col-6_sm-12-middle padded">
-          <h3> {{post.title}} </h3>
-          <p> {{post.excerpt | strip_html | truncate:100 }}
-          </p>
-          <a class="arrow" href="{{post.image_path}}"> > </a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+
+  {% assign filtered_posts = site.posts | where: 'spotlight', true %}
+  {% include mixed-column-posts.html %}
+
   </section>
 
 <!-- Products Section -->
@@ -129,22 +108,22 @@ title: this is the most amazing homepage I have ever seen
     </div>
     <div class="col-3_sm-12-middle">
       <div class="grid-center centered padded-1">
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
-        <div class="col-4_sm-4_xs-6">
+        <div class="col-6">
           <img src="/images/logo.webp">
         </div>
       </div>

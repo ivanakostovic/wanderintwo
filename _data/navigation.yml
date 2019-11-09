@@ -4,13 +4,13 @@
   url: /destinations
   sublinks:
     - title: Asia
-      url: /test
+      url: /destinations/asia
     - title: Europe
-      url: /test-2
+      url: /destinations/europe
     - title: Middle East
-      url: /test-2
+      url: /destinations/middle-east
     - title: North America
-      url: /test-2
+      url: /destinations/north-america
 - title : Advice
   url: /advice
   sublinks:

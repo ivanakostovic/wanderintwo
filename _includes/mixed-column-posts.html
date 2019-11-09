@@ -1,0 +1,27 @@
+<div class="grid blog-loop mixed-columns">
+
+  {% for post in filtered_posts limit:1 %}
+  <div class="col-6_sm-12">
+    <a href="{{post.url}}" class="white-box blog-item light-bg">
+      <div class="bg-image bg-image-lg" style="background-image:url('{{post.image_path}}')"> </div>
+      <div class="padded-1">
+        <h3> {{post.title}} </h3>
+        <p> {{post.excerpt | strip_html | truncate:100 }} </p>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+  <div class="grid col-6_sm-12 padded-1">
+    {% for post in filtered_posts limit:2 offset:1 %}
+    <a href="{{post.url}}" class="col-12 white-box grid flex-flip light-bg">
+      <div class="col-6_sm-12 bg-image bg-image-sm">
+      </div>
+      <div class="col-6_sm-12-middle padded">
+        <h3> {{post.title}} </h3>
+        <p> {{post.excerpt | strip_html | truncate:100 }}
+        </p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  </div>

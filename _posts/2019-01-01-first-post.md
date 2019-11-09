@@ -6,8 +6,7 @@ meta-description:
 meta-keywords:
 image_path: /images/adventure.jpg
 categories:
-  - travel
-  - wine
+  - asia
 slug: first-post
 type: Destinations
 destination: I am a destination

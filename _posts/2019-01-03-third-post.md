@@ -1,15 +1,33 @@
 ---
 layout: post
 title: Third Blog Post
+sub-title: This is my post sub-title
 meta-description:
 meta-keywords:
 image_path: /images/adventure.jpg
 categories:
-  - travel
-  - wine
-  - Dan's test category
-author: Tina May
-slug:
+  - asia
+slug: first-post
+type: Destinations
+destination: I am a destination
+accommodation-description: Hi I am the accommodation description
+affiliate-link: https://www.booking.com
+accommodations:
+  - image: /images/adventure.jpg
+    type: Hostel
+    name: This is a hostel
+    description: Amazing hostel
+    url: https://www.booking.com
+  - image: /images/cocktail.jpg
+    type: Hotel
+    name: Best Hotel
+    description: This is a great hotel
+    url: https://www.booking.com
+  - image: /images/pencils.jpg
+    type: Luxury
+    name: Hotel Ivana
+    description: This is a luxury hotel
+    url: https://www.booking.com
 spotlight: true
 ---
 

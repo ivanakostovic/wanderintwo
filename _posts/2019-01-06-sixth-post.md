@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fourth Blog Post
+title: Sixth Blog Post
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:

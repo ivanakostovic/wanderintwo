@@ -13,6 +13,14 @@ gems: [jekyll-paginate-v2]
 plugins:
   - jekyll-paginate-v2
 
+
+autopages:
+  enabled: true
+  categories:
+    layouts:
+      - archive.html
+    enabled: true
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -73,3 +81,6 @@ pagination:
   indexpage: 'index'
 
 ############################################################
+############################################################
+  # Site configuration for the Auto-Pages feature
+  # The values here represent the defaults if nothing is set

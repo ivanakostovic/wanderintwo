@@ -1,5 +1,11 @@
 ---
 layout: default
+autopages:
+  permalink: /collections/with/tag/:tag
+pagination:
+  enabled: true
+  categories: all
+  debug: false
 ---
 
 
@@ -9,8 +15,10 @@ layout: default
 
   <div class="grid blog-loop">
 
-    {% for post in site.categories[page.category] %}
+    {% for post in paginator.posts %}
+      <div class="col-4_sm-12 padded-1">
         {% include post-loop-item.html %}
+      </div>
     {% endfor %}
 
   </div>

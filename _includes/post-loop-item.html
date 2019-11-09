@@ -6,7 +6,7 @@
   <h3> {{post.title}} </h3>
   <p>
   {% for category in post.categories %}
-    <a href="/archives/{{category | slugify}}" class="category"> {{category}} </a>
+    <a href="/destination/{{category | slugify}}" class="category"> {{category}} </a>
   {% endfor %}
   </p>
   <p> {{post.excerpt | strip_html | truncate:100 }} </p>

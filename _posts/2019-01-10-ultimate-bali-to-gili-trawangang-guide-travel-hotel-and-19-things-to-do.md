@@ -58,7 +58,7 @@ spotlight: true
 
 Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.
 
-![](/images/adventure.jpg){: .one-half width="1200" height="801"}![](/images/lego.jpg){: .one-half width="1200" height="715"}
+![](/uploads/fly-gili.jpg){: .one-half width="1170" height="780"}![](/uploads/gili-banana.jpg){: .one-half width="1170" height="780"}
 
 Beautiful Gili Tranwangan and the white sand on the beach
 {: .caption}
@@ -69,9 +69,10 @@ The Gili Islands between Bali and Lombok are some of our favourite locations in 
 
 Read all about our 4 day 3 night stay on Gili Trawangan Island and find out exactly why it is an absolute must do on you next visit to Bali or Lombok.
 
-![](/images/pencils.jpg){: width="1200" height="800"}
+![](/uploads/gili-j-i.jpg){: width="1170" height="780"}
 
-Sunrise views like this should convince you to travel from Bali to Gili Trawangan
+Places like this should convince you to travel from Bali to Gili Trawangan
+{: .caption}
 
 ## Where is Gili T
 

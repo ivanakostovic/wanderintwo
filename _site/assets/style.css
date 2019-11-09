@@ -35,7 +35,7 @@
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
 
-  .capped-width { width: 80%; margin: auto;}
+  .capped-width { width: 60%; margin: auto;}
 
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
@@ -46,6 +46,8 @@
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+
+  .margin-bottom { margin-bottom: 1rem;}
 
   /* General typography */
 
@@ -370,6 +372,7 @@
     background-position: center;
     min-height: 10rem;
   }
+
   /* Hover grid */
 
   .hover-container {
@@ -749,3 +752,18 @@
 @media(max-width:576px) {
 
 } /* end media query */
+
+@media(min-width:768.1px){
+  .bg-image-sm{
+    min-height: 5rem;
+  }
+
+  .bg-image-lg{
+    min-height: 20rem;
+  }
+
+  .blog-loop .bg-image.bg-image-sm {
+    padding-bottom: 0;
+}
+
+}

@@ -5,26 +5,32 @@ layout: default
 {% include banner.html %}
 
 <!-- Intro Section -->
-<section class="padded">
+<section class="grid-center padded">
   <!-- TO DO: add alt text -->
-  <img src="{{page.map_flag}}" alt="">
-  <p>
-    {{page.description}}
-  </p>
+  <div class="col-7">
+    <img src="{{page.map_flag}}" alt="">
+  </div>
+  <div class="col-9">
+    <p>
+      {{page.description}}
+    </p>
+  </div>
 </section>
 
 <!-- Featured Destination Posts Section -->
 <section class="padded">
-  <h2>
-    Featured {{page.title}} posts
-  </h2>
+  <div class="centered">
+    <h2>
+      Featured {{page.title}} posts
+    </h2>
+  </div>
   <div class="grid blog-loop">
     {% assign filtered_posts = site.posts | where: 'spotlight', true %}
 
     {% for post in filtered_posts limit:1 %}
     <div class="col-6_sm-12 padded-1">
       <a href="{{post.url}}" class="blog-item">
-        <div class="bg-image" style="background-image:url('{{post.image_path}}')"> </div>
+        <div class="bg-image bg-image-lg" style="background-image:url('{{post.image_path}}')"> </div>
         <h3> {{post.title}} </h3>
         <p> {{post.excerpt | strip_html | truncate:100 }} </p>
       </a>
@@ -33,9 +39,9 @@ layout: default
     <div class="col-6_sm-12 padded-1">
       {% for post in filtered_posts limit:2 offset:1 %}
       <div class="grid  flex-flip">
-        <div class="col-6_sm-12 bg-image">
+        <div class="col-6_sm-12 bg-image bg-image-sm">
         </div>
-        <div class="col-6_sm-12-middle padded">
+        <div class="col-6_sm-12-middle padded bg-image-sm">
           <h3> {{post.title}} </h3>
           <p> {{post.excerpt | strip_html | truncate:100 }}
           </p>

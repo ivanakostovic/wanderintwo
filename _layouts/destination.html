@@ -13,6 +13,39 @@ layout: default
   </p>
 </section>
 
+<!-- Featured Destination Posts Section -->
+<section>
+  <h2>
+    Featured {{page.title}} posts
+  </h2>
+  <div class="grid blog-loop">
+    {% assign filtered_posts = site.posts | where: 'spotlight', true %}
+
+    {% for post in filtered_posts limit:1 %}
+    <div class="col-6_sm-12 padded-1">
+      <a href="{{post.url}}" class="blog-item">
+        <div class="bg-image" style="background-image:url('{{post.image_path}}')"> </div>
+        <h3> {{post.title}} </h3>
+        <p> {{post.excerpt | strip_html | truncate:100 }} </p>
+      </a>
+    </div>
+    {% endfor %}
+    <div class="col-6_sm-12 padded-1">
+      {% for post in filtered_posts limit:2 offset:1 %}
+      <div class="grid  flex-flip">
+        <div class="col-6_sm-12 bg-image">
+        </div>
+        <div class="col-6_sm-12-middle padded">
+          <h3> {{post.title}} </h3>
+          <p> {{post.excerpt | strip_html | truncate:100 }}
+          </p>
+          <a class="arrow" href="{{post.image_path}}"> > </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
 <!-- Recent Posts -->
      <section>
       <h2>

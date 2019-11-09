@@ -4,8 +4,7 @@ title: 'Ultimate bali to gili trawangang guide (Travel, Hotel and 19 Things to D
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:
-image_path: >-
-  https://i2.wp.com/www.wanderintwo.com/wp-content/uploads/2019/07/bali-to-gili-trawangan-gili-t-sunset.jpg?resize=1170%2C780&ssl=1
+image_path: /Gili T.jpg
 categories:
   - australia
 slug: tenth-post

@@ -131,15 +131,3 @@ We wanted that early Gili Trawangan to Bali transport so bad. We had a long scoo
 Thankfully, after some begging, we were put on a waiting list and we made sure we queued up early the next day to ensure we were the first picks when people dropped out. Luck was on our side that day and feeling ever so grateful we made our way back to Bali on the early fast boat.
 
 Make sure that whatever boat you take, you are familiar with their process and know when you need to confirm your check in for your return trip.
-
-M BOX GILI TRAWANGAN – In terms of the hostel Gili Trawangan accommodation, this place caters to all tastes and takes care of your every travel need. The bed and breakfast includes bike hire and also boasts a perfect location being just 400 metres from the Gili T harbour and 400 metres from Turtle Point. For solo travellers looking to make friends then head down to play some table tennis in the shared lounge.
-
-The M Box Hostel Gili Trawangan accommodation
-
-Gili Trawangan villas
-
-BLACK PENNY VILLAS – The first of our recommended Gili Island villas come in the form of this beautiful beach front location. These one and two bedroom villas come complete with private plunge pool, WiFi throughout, massage treatments and water sport activities to name a few. All the villas are kitted out with mod cons such as flat screen TV and en-suite bathrooms with showers.
-
-THE WHITE KEY LUXURY VILLAS – One of the most sought after Gili T accommodations is the White Key Luxury Villas. The accommodation includes some incredible facilities such as free WiFi, private pools and a hot tub in a private garden. Kitted out with the usual air conditioning plus a dining and seating area this place of seclusion is a great home away from home.
-
-KELAPA VILLAS – One of the top picks on the island, the Kelapa Villas are worth considering when working out where to stay in Gili T. A five-minute bike ride to the beach and a 15 minute bike ride to the lively bars and restaurants, this inland property is absolutely stunning. Set within Instagrammable landscaped gardens, each villa has its own unique layout and design.

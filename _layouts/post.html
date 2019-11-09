@@ -82,6 +82,18 @@ layout: default
     </div>
 
     <!-- sidebar box 2: Recent Posts -->
+    <section>
+      <h2>
+        Recent Posts
+      </h2>
+      <div class="grid blog-loop">
+        {% for post in site.posts limit:4 %}
+        <div class="col-12 padded-1">
+          {% include post-loop-item.html %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
 
 
     <!-- sidebar box 3: Bluehost Ad -->

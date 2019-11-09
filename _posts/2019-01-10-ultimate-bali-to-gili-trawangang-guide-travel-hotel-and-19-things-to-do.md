@@ -38,6 +38,8 @@ Travelling from Bali to Gili Trawangan for the first time can be a daunting thou
 
 ![](/images/adventure.jpg){: .one-half width="1200" height="801"}![](/images/lego.jpg){: .one-half width="1200" height="715"}
 
+Captions...&nbsp;
+
 We have created this step by step, hand holding, walk through guide on your perfect Gili getaway to make sure your travel is effortless, your stay is comfortable and that you don’t miss out on a thing throughout your stay on Gili T.
 
 The Gili Islands between Bali and Lombok are some of our favourite locations in the whole of Indonesia for a million different reasons.

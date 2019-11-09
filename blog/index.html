@@ -23,17 +23,19 @@ featured-image_path:
 </section>
 
 <!-- Pagination -->
-{% if paginator.previous_page_path != nil %}
+
   <div class="centered">
+    {% if paginator.previous_page_path != nil %}
     <a class="button" href="{{ paginator.previous_page_path }}">
       Previous
     </a>
-{% endif %}
-{% if paginator.next_page_path != nil %}
+    {% endif %}
+    {% if paginator.next_page_path != nil %}
     <a class="button" href="{{ paginator.next_page_path }}">
       Next
     </a>
+    {% endif %}
   </div>
-{% endif %}
+
 
 </section>

@@ -10,23 +10,23 @@ categories:
 slug: first-post
 type: Destinations
 destination: I am a destination
-accommodation-description: Hi I am the accommodation description
+accommodation-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 affiliate-link: https://www.booking.com
 accommodations:
   - image: /images/adventure.jpg
     type: Hostel
     name: This is a hostel
-    description: Amazing hostel
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     url: https://www.booking.com
   - image: /images/cocktail.jpg
     type: Hotel
     name: Best Hotel
-    description: This is a great hotel
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     url: https://www.booking.com
   - image: /images/pencils.jpg
     type: Luxury
     name: Hotel Ivana
-    description: This is a luxury hotel
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     url: https://www.booking.com
 spotlight: true
 ---

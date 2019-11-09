@@ -48,6 +48,7 @@
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   .margin-bottom { margin-bottom: 1rem;}
+  .margin-top { margin-top: 1rem;}
 
   /* General typography */
 
@@ -313,11 +314,18 @@
   }
   .mobile-menu a {
     color: white;
-    padding: 1rem;
+    padding: 0.3rem;
     display: block;
     text-decoration: none;
   }
 
+  .mobile-menu ul{
+    list-style: none; 
+  }
+
+.mobile-menu ul ul{
+  margin-left: 0.5rem;
+}
 
   /* -- Footer -- */
 
@@ -341,6 +349,10 @@
     background-size: cover;
     background-position: center;
     min-height: 80vh;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
   }
 
   .fixed {

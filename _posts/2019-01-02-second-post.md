@@ -6,8 +6,9 @@ meta-description:
 meta-keywords:
 image_path: /images/adventure.jpg
 categories:
+  - thailand
   - asia
-slug: first-post
+slug: second-post
 type: Destinations
 destination: I am a destination
 accommodation-description: Hi I am the accommodation description

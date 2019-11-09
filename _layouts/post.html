@@ -53,15 +53,24 @@ layout: default
     {% include social-share.html %}
 
     <!-- Recent Posts -->
-    <section>
+    <section class="margin-top">
       <h2>
-        Recent Posts
+        Related Posts
       </h2>
       <div class="grid blog-loop">
-        {% for post in site.posts limit:4 %}
+
+        {% capture pageCategory %}{{ page.categories[0] }}{% endcapture %}
+
+        {% for post in site.categories[pageCategory] limit:4 %}
+
+        {% if post.url != page.url %}
+
         <div class="col-6_sm-12 padded-1">
           {% include post-loop-item.html %}
         </div>
+
+        {% endif %}
+
         {% endfor %}
       </div>
     </section>

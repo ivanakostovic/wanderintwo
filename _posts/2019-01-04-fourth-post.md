@@ -7,7 +7,7 @@ meta-keywords:
 image_path: /images/adventure.jpg
 categories:
   - asia
-slug: first-post
+slug: fourth-post
 type: Destinations
 destination: I am a destination
 accommodation-description: Hi I am the accommodation description

@@ -55,7 +55,6 @@ spotlight: true
 ---
 
 ## This is the only guide you need when it comes to the best things to do on Gili Trawangan
-{: .cursive}
 
 Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.
 

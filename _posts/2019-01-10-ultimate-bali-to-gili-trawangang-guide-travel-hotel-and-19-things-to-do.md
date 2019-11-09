@@ -4,7 +4,8 @@ title: 'Ultimate bali to gili trawangang guide (Travel, Hotel and 19 Things to D
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:
-image_path: /images/adventure.jpg
+image_path: >-
+  https://i2.wp.com/www.wanderintwo.com/wp-content/uploads/2019/07/bali-to-gili-trawangan-gili-t-sunset.jpg?resize=1170%2C780&ssl=1
 categories:
   - australia
 slug: tenth-post
@@ -69,6 +70,8 @@ We have created this step by step, hand holding, walk through guide on your perf
 The Gili Islands between Bali and Lombok are some of our favourite locations in the whole of Indonesia for a million different reasons.
 
 Read all about our 4 day 3 night stay on Gili Trawangan Island and find out exactly why it is an absolute must do on you next visit to Bali or Lombok.
+
+![](/images/pencils.jpg){: width="1200" height="800"}
 
 Sunrise views like this should convince you to travel from Bali to Gili Trawangan
 

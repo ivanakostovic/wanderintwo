@@ -92,7 +92,7 @@ Wet season in Gili T is around late October until late March. Even then, when th
 
 If you really want the perfect Gili T weather then the ideal months are May and September. Cyclone season isn’t an issue, the weather is pretty much dry and the larger crowds that you find during high season are nowhere to be seen.
 
-&nbsp;
+![](/uploads/gili-t.jpg){: width="1170" height="780"}
 
 Bring the factor 30 for the summer months in Gili T
 {: .caption}
@@ -106,6 +106,8 @@ Can you fly to Gili T? Does Gili T have an airport? Unfortunately the answer is 
 Our journey from Bali to Gili T began at Padang Bai on the south-eastern coast of Bali. Catching the boat from Bali to Gili Trawangan can be a daunting experience, especially if this is your first time venturing to the neighbouring islands. It can be pretty intense in the heat with the influx of travellers and the locals trying to sell you things.
 
 Heading from Padang Bai to Gili at around 09:00, we made sure to catch the earliest possible transport to maximise our time on Gili T.
+
+![](/uploads/gili-boat.jpg){: width="1170" height="780"}![](/uploads/gili-boat-2.jpg){: width="1170" height="780"}
 
 There are two main options to travel from Padang Bai to Gili Trawangan and those are either the fast boat or local ferry. The fast boat to Gili Trawangan from Bali takes around one and a half hours. Taking the local ferry to Lombok and then on to the Gili Islands from there can take anything up to eight hours in total\!
 

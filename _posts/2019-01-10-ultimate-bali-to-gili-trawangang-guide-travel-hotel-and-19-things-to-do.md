@@ -31,9 +31,14 @@ accommodations:
 spotlight: true
 ---
 
-This is the only guide you need when it comes to the best things to do on Gili Trawangan
+## This is the only guide you need when it comes to the best things to do on Gili Trawangan
+{: .cursive}
 
 Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.
+
+![](/images/adventure.jpg){: .one-half width="1200" height="801"}![](/images/lego.jpg){: .one-half width="1200" height="715"}
+
+Captions...&nbsp;
 
 We have created this step by step, hand holding, walk through guide on your perfect Gili getaway to make sure your travel is effortless, your stay is comfortable and that you don’t miss out on a thing throughout your stay on Gili T.
 

@@ -19,7 +19,7 @@ title: this is the most amazing homepage I have ever seen
     Recent Posts
   </h2>
   <div class="grid blog-loop">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:9 %}
     <div class="col-4_sm-12 padded-1">
       {% include post-loop-item.html %}
     </div>
@@ -47,7 +47,7 @@ title: this is the most amazing homepage I have ever seen
   </div>
 </section>
 
-<!-- Spotlight Section TO DO: update ?-->
+<!-- Spotlight Section -->
 <section>
   <h2>
     Spotlight on

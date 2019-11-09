@@ -5,7 +5,7 @@ layout: default
 {% include banner.html %}
 
 <!-- Intro Section -->
-<section>
+<section class="padded">
   <!-- TO DO: add alt text -->
   <img src="{{page.map_flag}}" alt="">
   <p>
@@ -14,7 +14,7 @@ layout: default
 </section>
 
 <!-- Featured Destination Posts Section -->
-<section>
+<section class="padded">
   <h2>
     Featured {{page.title}} posts
   </h2>
@@ -47,12 +47,12 @@ layout: default
   </section>
 
 <!-- Recent Posts -->
-     <section>
+     <section class="padded">
       <h2>
         Recent Posts
       </h2>
       <div class="grid blog-loop">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:9 %}
         <div class="col-4_sm-12 padded-1">
           {% include post-loop-item.html %}
         </div>

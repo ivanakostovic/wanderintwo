@@ -54,13 +54,15 @@ title: this is the most amazing homepage I have ever seen
 
 <!-- Spotlight Section -->
 <section class="padded">
-  <h2>
-    Spotlight on
-  </h2>
-  <p>
+  <div class="capped-width">
+    <h2>
+      Spotlight on
+    </h2>
+    <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  </p>
+    </p>
+  </div>
   <div class="grid blog-loop">
     {% assign filtered_posts = site.posts | where: 'spotlight', true %}
 

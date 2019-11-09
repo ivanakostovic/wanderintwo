@@ -233,6 +233,11 @@
     color: white;
   }
 
+  .social-icons {
+    font-size: 2rem;
+    letter-spacing: 8px;
+  }
+
   /* Dropdown Header */
 
   header li {

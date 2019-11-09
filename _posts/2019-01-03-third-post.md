@@ -6,7 +6,7 @@ meta-description:
 meta-keywords:
 image_path: /images/adventure.jpg
 categories:
-  - asia
+  - middle east
 slug: third-post
 type: Destinations
 destination: I am a destination

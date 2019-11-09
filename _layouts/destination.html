@@ -60,7 +60,9 @@ pagination:
     Recent Posts
   </h2>
   <div class="grid blog-loop">
-    {% for post in site.posts limit:9 %}
+    {% assign dest = page.title | downcase %}
+    {% assign posts = site.posts | where_exp: "post", "post.categories contains dest" %}
+    {% for post in posts limit:9 %}
       <div class="col-4_sm-12 padded-1">
         {% include post-loop-item.html %}
       </div>

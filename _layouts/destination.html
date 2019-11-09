@@ -1,5 +1,7 @@
 ---
 layout: default
+pagination:
+  enabled: true
 ---
 
 {% include banner.html %}
@@ -53,19 +55,34 @@ layout: default
   </section>
 
 <!-- Recent Posts -->
-     <section class="padded">
-      <h2>
-        Recent Posts
-      </h2>
-      <div class="grid blog-loop">
-      {% for post in site.posts limit:9 %}
-        <div class="col-4_sm-12 padded-1">
-          {% include post-loop-item.html %}
-        </div>
-       {% endfor %}
-       </div>
-      <div class="centered">
-        <a class="button" href="/blog">See all posts</a>
+<section class="padded">
+  <h2>
+    Recent Posts
+  </h2>
+  <div class="grid blog-loop">
+    {% for post in site.posts limit:9 %}
+      <div class="col-4_sm-12 padded-1">
+        {% include post-loop-item.html %}
       </div>
+    {% endfor %}
+  </div>
+    <div class="centered">
+      <a class="button" href="/blog">See all posts</a>
+    </div>
 
-     </section>
+<!-- Pagination -->
+
+  <div class="centered">
+    {% if paginator.previous_page_path != nil %}
+      <a class="button" href="{{ paginator.previous_page_path }}">
+        Previous
+      </a>
+        {% endif %}
+        {% if paginator.next_page_path != nil %}
+      <a class="button" href="{{ paginator.next_page_path }}">
+        Next
+      </a>
+        {% endif %}
+  </div>
+
+</section>

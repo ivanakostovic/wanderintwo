@@ -24,7 +24,7 @@ _options:
     superscript: true
     image: true
     bulletedlist: true
-    styles: /css/editor.css
+    styles: /assets/editor.css
 
 gems: [jekyll-paginate-v2]
 

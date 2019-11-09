@@ -11,7 +11,7 @@ layout: default
     <!-- Page.type is a variable I created to represent either destinations or advice  -->
     <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
       {% for category in page.categories %}
-        <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
+      <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
       {% endfor %}
     </p> <!-- end categories -->
     <h2> {{page.sub-title}} </h2>
@@ -20,56 +20,56 @@ layout: default
 
     <!-- Accommodation Section -->
     {% if page.accommodations %}
-      <h2>
+    <h2>
       Accommodation in {{page.destination}}
-      </h2>
-      <p>
+    </h2>
+    <p>
       {{page.accommodation-description}}
-      </p>
-      {% for accommodation in page.accommodations %}
-      <a href="{{accommodation.url}}" class="hotel-listing">
-        <div class="grid">
+    </p>
+    {% for accommodation in page.accommodations %}
+    <a href="{{accommodation.url}}" class="hotel-listing">
+      <div class="grid">
         <!-- put stff here  -->
-          <div class="col-5_sm-12 bg-image" style="background-image: url({{accommodation.image}})">
-          </div>
-          <div class="col-7_sm-12 padded-1">
-            <h3>
-              {{accommodation.type}}: {{accommodation.name}}
-            </h3>
-            <p>
-              {{accommodation.description}}
-            </p>
-          </div>
-        <!-- stuff ends here -->
+        <div class="col-5_sm-12 bg-image" style="background-image: url({{accommodation.image}})">
         </div>
-      </a>
-      {% endfor %}
-      <a href="{{accommodation.affiliate-link}}">
-        See more accommodation in {{page.destination}}
-      </a>
+        <div class="col-7_sm-12 padded-1">
+          <h3>
+            {{accommodation.type}}: {{accommodation.name}}
+          </h3>
+          <p>
+            {{accommodation.description}}
+          </p>
+        </div>
+        <!-- stuff ends here -->
+      </div>
+    </a>
+    {% endfor %}
+    <a href="{{accommodation.affiliate-link}}">
+      See more accommodation in {{page.destination}}
+    </a>
     {% endif %}
 
-<!-- Social Share -->
+    <!-- Social Share -->
     {% include social-share.html %}
 
-<!-- Recent Posts -->
-     <section>
+    <!-- Recent Posts -->
+    <section>
       <h2>
         Recent Posts
       </h2>
       <div class="grid blog-loop">
-      {% for post in site.posts %}
+        {% for post in site.posts limit:4 %}
         <div class="col-6_sm-12 padded-1">
           {% include post-loop-item.html %}
         </div>
-       {% endfor %}
-       </div>
-     </section>
+        {% endfor %}
+      </div>
+    </section>
   </div>
 
   <div class="col-4_sm-12 padded-1 mob-hide sidebar">
 
-<!-- sidebar box 1: About Us -->
+    <!-- sidebar box 1: About Us -->
     <div>
       <div class="bg-image">
       </div>

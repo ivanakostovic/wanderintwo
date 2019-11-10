@@ -56,4 +56,42 @@ For us, it was the perfect itinerary as it allowed us to see many of Komodo Isla
 
 Gio and Adel, who own and run the tours are also the loveliest people in the entire world. They really go the extra mile to make sure you maximise your time on these beautiful Komodo Islands. They are joined by a professional Indonesian crew who made our time onboard safe and comfortable.
 
+![](/uploads/komodo-3.jpg){: width="1024" height="683"}
+
+*Our crew for the three days*
+{: .caption}
+
+## Kelor Island (Pulau Komodo)
+
+Our first destination on our Komodo Islands tour after leaving the port in Labuan Bajo was the uninhabited island of Kelor. We put our sneakers on and jumped in the tender boat that took us to shore. Once ashore we hiked up the trail on the island which is an extremely steep, natural dirt track. The views were amazing and we got some awesome pictures.
+
+The hike back down had us crawling on our bums and we got a little dusty. Once back on flat land we donned our snorkel and mask to enjoy some time swimming around the coral reef. The snorkelling here was absolutely amazing. There were so many tropical fish who were extremely protective of their little patches of coral. The highlight for us was spotting a cuttlefish and following it around for a while.
+
+We were transported back to the boat by tender and there was a delicious vegetarian lunch waiting for us. We ate, sun bathed on the top deck and made our way to the next destination.
+
+![](/uploads/komodo-4.jpg){: width="1024" height="683"}
+
+*The climb got way steeper the higher we went*
+{: .caption}
+
+## Rinca Island aka Komodo Dragon Island
+
+No trip the Komodo Islands would be complete without seeing the Komodo Dragon’s. We landed on Rinca where Komodo Dragons roam free, and made our way to the ranger’s camp. Here we were assigned a ranger as a guide to take us down one of the routes to explore the island and spot some Komodo’s. There are three routes – short, medium and long, so we opted for the short route which offered more shade and less hills. It was a scorcher of a day.
+
+Even though there are almost 2,000 Komodo Dragons on Rinca Island, you’re not guaranteed to always see them. We were lucky enough to see both juveniles around one meter and adults of three meters. We also saw a nest being guarded by a female Komodo. It was really interesting to learn all the facts about the Komodo Dragon from the ranger.
+
+To top off our walk there was a gorgeous hilltop that offered awesome views of the beach. We spent about an hour exploring Rinca before heading back to the boat.
+
+![](/uploads/komodo-5.jpg){: width="1024" height="683"}
+
+## Kalong Island for amazing sunset and bats
+
+Our next stop on our Komodo Islands tour is where we witnessed the most amazing natural phenomenon. Sitting on the top deck we watched as the sun set across the horizon behind this mangrove-covered island. Then like magic, out of nowhere at dusk, thousands of massive bats flew up into the sky and directly above us.
+
+These amazing creatures hang around on the mangroves during the day. As night falls they leave the island as a massive group to look for food. The incredible thing about this is that no one knows where the bats go to actually find their food. Not even the guides or locals. But the bats always return to Kalong Island in the morning. It was one of life’s magic moments that we will never forget.
+
+Retiring to the lower deck we were fed another awesome local Indonesian meal and it was time for bed after a great first day.
+
+![](/uploads/komodo-6.jpg){: .one-half width="1024" height="683"}![](/uploads/komodo-4.jpg){: .one-half width="1024" height="683"}
+
 &nbsp;

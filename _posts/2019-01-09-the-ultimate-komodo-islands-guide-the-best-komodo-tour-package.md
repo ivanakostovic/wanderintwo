@@ -6,20 +6,25 @@ sub-title: >-
   found on a Komodo Island liveaboard tour
 meta-description:
 meta-keywords:
-image_path: /images/adventure.jpg
+image_path: /uploads/Komodo Feature.jpg
 categories:
   - asia
 slug: ninth-post
 type: Destinations
-destination:
+destination: asia
 accommodation-description: Hi I am the accommodation description
 affiliate-link: 'https://www.booking.com'
 accommodations:
-  - image: /images/adventure.jpg
+  - image:
     type: Hostel
-    name: This is a hostel
-    description: Amazing hostel
-    url: 'https://www.booking.com'
+    name: Seasta Komodo
+    description: >-
+      Seaesta Komodo Hostel & Hotel features a restaurant, outdoor swimming
+      pool, a fitness centre and bar in Labuan Bajo. Featuring a garden, the
+      4-star hotel has air-conditioned rooms with free WiFi. Private parking can
+      be arranged at an extra charge.
+    url: >-
+      https://www.booking.com/hotel/id/seaesta-komodo.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaGiIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4Aq62ne4FwAIB;sid=f7789395429c9a9cbae26d861859d3c5;dest_id=-2683993;dest_type=city;dist=0;from_beach_key_ufi_sr=1;group_adults=2;group_children=0;hapos=4;hpos=4;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1573346141;srpvid=c84b042e8be20011;type=total;ucfs=1&#hotelTmpl
   - image: /images/cocktail.jpg
     type: Hotel
     name: Best Hotel

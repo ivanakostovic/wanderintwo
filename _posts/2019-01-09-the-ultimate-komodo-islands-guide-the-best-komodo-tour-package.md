@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ninth Blog Post
+title: THE ULTIMATE KOMODO ISLANDS GUIDE (THE BEST KOMODO TOUR PACKAGE)
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:
@@ -9,25 +9,25 @@ categories:
   - asia
 slug: ninth-post
 type: Destinations
-destination: I am a destination
+destination:
 accommodation-description: Hi I am the accommodation description
-affiliate-link: https://www.booking.com
+affiliate-link: 'https://www.booking.com'
 accommodations:
   - image: /images/adventure.jpg
     type: Hostel
     name: This is a hostel
     description: Amazing hostel
-    url: https://www.booking.com
+    url: 'https://www.booking.com'
   - image: /images/cocktail.jpg
     type: Hotel
     name: Best Hotel
     description: This is a great hotel
-    url: https://www.booking.com
+    url: 'https://www.booking.com'
   - image: /images/pencils.jpg
     type: Luxury
     name: Hotel Ivana
     description: This is a luxury hotel
-    url: https://www.booking.com
+    url: 'https://www.booking.com'
 spotlight: true
 ---
 

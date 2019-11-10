@@ -54,6 +54,8 @@
 
   h1{
     font-family: 'Staatliches', cursive;
+    color: white;
+    text-shadow: 1px 1px 30px rgba(100,100,100,0.3);
   }
 
   h2, h3, h4 {

@@ -33,9 +33,13 @@ accommodations:
     url: 'https://www.booking.com'
   - image: /images/pencils.jpg
     type: Luxury
-    name: Hotel Ivana
-    description: This is a luxury hotel
-    url: 'https://www.booking.com'
+    name: Eden Garden Resort
+    description: >-
+      Simply furnished, the air-conditioned rooms are all fitted with a
+      flat-screen TV and a refrigerator. The en suite bathroom includes free
+      toiletries and a bath or shower. Bed linen and towels are also provided
+    url: >-
+      https://www.booking.com/hotel/th/eden-garden-resort-changwat-chiang-mai.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaGiIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4ApPFne4FwAIB;sid=f7789395429c9a9cbae26d861859d3c5;dest_id=-3247115;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1573347995;srpvid=056807cde8380043;type=total;ucfs=1&#hotelTmpl
 spotlight: true
 ---
 

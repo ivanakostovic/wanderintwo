@@ -13,7 +13,7 @@ slug: tenth-post
 type: Destinations
 destination: asia
 accommodation-description: Best places to stay in Gili Trawangan
-affiliate-link: 'https://www.booking.com'
+affiliate-link: 'https://www.booking.com/'
 accommodations:
   - image: 'https://r-cf.bstatic.com/images/hotel/max1024x768/201/201679096.jpg'
     type: Hostel

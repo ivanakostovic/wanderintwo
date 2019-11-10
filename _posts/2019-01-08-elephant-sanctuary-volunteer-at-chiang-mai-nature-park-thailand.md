@@ -60,3 +60,15 @@ They tried to return as many as possible to their owners and rehomed most that w
 ![](/uploads/e4.jpg){: .one-third width="1024" height="683"}![](/uploads/e5.jpg){: .one-third width="1024" height="683"}![](/uploads/e6.jpg){: .one-third width="1024" height="683"}
 
 ![](/uploads/e7.jpg){: width="1024" height="683"}
+
+## More than just an elephant rescue park
+
+Elephant Nature Park don’t just help the elephants and other animals, they help families and the community too. Every time they make an elephant rescue they give the Mahout or ex-owner a chance to work with or move to Elephant Nature Park to be with their elephant and continue life under their good practices.
+
+They even give the Mahout or ex-owners families a home and a job at Elephant Nature Park and provide all meals, utilities, and even an education for their children for free.
+
+Elephant Nature Park support their community through initiatives like Elephant Nature Coffee, which re-trains ex-owners with a new profitable occupation and teaches them how to grow coffee under the rainforest canopy, which Elephant Nature Park buy back from them.
+
+They also buy tonnes of corn, butternut, watermelon and bananas from local farmers to feed the elephants. This helps to maintain the integrity of surrounding communities and preserve the culture of the people who live in those communities.
+
+Elephant Nature Park are also dedicated to restoring the environment in the surrounding areas of their parks. By planting trees and re-introducing rainforest flora, they hope to restore ecological balance eventually.

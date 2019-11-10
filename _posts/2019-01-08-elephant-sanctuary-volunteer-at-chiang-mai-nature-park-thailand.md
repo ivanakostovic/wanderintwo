@@ -31,7 +31,7 @@ accommodations:
     name: Best Hotel
     description: This is a great hotel
     url: 'https://www.booking.com'
-  - image: /images/pencils.jpg
+  - image: /uploads/eden.jpg
     type: Luxury
     name: Eden Garden Resort
     description: >-

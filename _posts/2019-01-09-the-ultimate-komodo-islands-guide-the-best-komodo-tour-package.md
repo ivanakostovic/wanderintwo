@@ -25,11 +25,16 @@ accommodations:
       be arranged at an extra charge.
     url: >-
       https://www.booking.com/hotel/id/seaesta-komodo.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaGiIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4Aq62ne4FwAIB;sid=f7789395429c9a9cbae26d861859d3c5;dest_id=-2683993;dest_type=city;dist=0;from_beach_key_ufi_sr=1;group_adults=2;group_children=0;hapos=4;hpos=4;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1573346141;srpvid=c84b042e8be20011;type=total;ucfs=1&#hotelTmpl
-  - image: /images/cocktail.jpg
+  - image:
     type: Hotel
-    name: Best Hotel
-    description: This is a great hotel
-    url: 'https://www.booking.com'
+    name: Blue Ocean Hotel
+    description: >-
+      Boasting spacious air-conditioned rooms washed in white and blue, Blue
+      Ocean Hotel offers rooms in Labuan Bajo. With a bar that overlooks the
+      port, the hotel also has free WiFi. Guests enjoy the convenience of a
+      private bathroom.
+    url: >-
+      https://www.booking.com/hotel/id/blue-ocean.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaGiIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4Aq62ne4FwAIB&sid=f7789395429c9a9cbae26d861859d3c5&dest_id=-2683993&dest_type=city&from_beach_key_ufi_sr=1&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1573346141&srpvid=c84b042e8be20011&ucfs=1&from=searchresults;highlight_room=#hotelTmpl
   - image: /images/pencils.jpg
     type: Luxury
     name: Hotel Ivana

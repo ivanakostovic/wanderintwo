@@ -56,7 +56,7 @@ accommodations:
 spotlight: true
 ---
 
-Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.
+Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.&nbsp;
 
 ![](/uploads/fly-gili.jpg){: .one-half width="1170" height="780"}![](/uploads/gili-banana.jpg){: .one-half width="1170" height="780"}
 

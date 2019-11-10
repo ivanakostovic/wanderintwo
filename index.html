@@ -7,9 +7,12 @@ banner:
   - url: /first-post
     image_path: /uploads/home.jpg
     title: KO PODA ISLAND (ULTIMATE GUIDE ON TAKING THIS PARADISE KRABI BOAT TOUR)
-  - url: fjdhgdkjfgh
-    image_path: hsfkshdf
-    title: this is banner two
+  - url: /second-post
+    image_path: /uploads/komodo-2.jpg
+    title: 25 TOP THINGS TO DO IN THE KOMODO ISLANDS
+  - url: /third-post
+    image_path: /uploads/e2.jpg
+    title: HOW TO IDENTIFY ETHICAL ELEPHANT SANCTUARIES TO VISIT IN THAILAND
 ---
 
 <!-- banner -->
@@ -34,12 +37,9 @@ banner:
 
 </section>
 
-<!-- Second banner TO DO: integrate featured blog post info -->
-<section class="banner grid-bottom padded" style="background-image:url('/images/pencils.jpg');">
-  <div class="col-9">
-    <h1> I am a title that I need to change</h1>
-  </div>
-</section>
+<!-- banner -->
+{% assign banner = page.banner[1] %}
+{% include banner-homepage.html banner=banner %}
 
 <!-- About Us Section -->
 <section class="light-bg">
@@ -93,12 +93,9 @@ banner:
   <a class="button" href="/about-us">See All Online Courses</a>
 </section>
 
-<!-- Third banner -->
-<section class="banner grid-bottom padded" style="background-image:url('/images/pencils.jpg');">
-  <div class="col-9">
-    <h1> I am a title that I need to change</h1>
-  </div>
-</section>
+<!-- banner -->
+{% assign banner = page.banner[2] %}
+{% include banner-homepage.html banner=banner %}
 
 <!-- Work With Us Section -->
 <section class="light-bg">

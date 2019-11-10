@@ -1,7 +1,9 @@
 <!-- This is a re-usable banner -->
-<a href="{{page.banner-1.url}}"><section class="banner grid-bottom padded" style="background-image:url('{{page.banner-1.image_path}}');">
+<!-- Call it by providing values for url, image_path, and title -->
+{% assign banner = include.banner %}
+<a href="{{banner.url}}"><section class="banner grid-bottom padded" style="background-image:url('{{banner.image_path}}');">
   <div class="col-9_xs-12">
-    <h1> {{page.banner-1.title}}</h1>
+    <h1> {{banner.title}}</h1>
   </div>
 </section>
 </a>

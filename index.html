@@ -3,17 +3,18 @@ layout: default
 title: Homepage
 meta-description:
 meta-keywords:
-banner-1:
+banner:
   - url: /first-post
-  - image_path: /uploads/home.jpg
-  - title: KO PODA ISLAND (ULTIMATE GUIDE ON TAKING THIS PARADISE KRABI BOAT TOUR)
+    image_path: /uploads/home.jpg
+    title: KO PODA ISLAND (ULTIMATE GUIDE ON TAKING THIS PARADISE KRABI BOAT TOUR)
+  - url: fjdhgdkjfgh
+    image_path: hsfkshdf
+    title: this is banner two
 ---
 
-<!-- this is just an example. You can safely delete these and add your own blocks -->
-
-
 <!-- banner -->
-{% include banner-homepage.html %}
+{% assign banner = page.banner[0] %}
+{% include banner-homepage.html banner=banner %}
 
 <!-- Recent Posts TO DO ask Tina difference between blog page and archive page-->
 <section class="padded">

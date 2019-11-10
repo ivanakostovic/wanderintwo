@@ -120,7 +120,7 @@ The beach is uninhabited and completely unspoiled. The way the turquoise-blue se
 
 We had plenty of time to swim, snorkel, sunbathe and relax on this beautiful beach. It was seriously a dream. A bonus is that Travass Life have a drone which can get you the perfect picture from above.
 
-![](/uploads/komodo-8.jpg){: width="1024" height="683"}
+![](/uploads/komodo-8.jpg){: width="1024" height="683"}![](/uploads/komodo-8.jpg){: width="1024" height="683"}
 
 *We found so many amazing shells at Pink Beach*
 {: .caption}

@@ -6,12 +6,12 @@ sub-title: >-
   Park Chiang Mai Thailand
 meta-description:
 meta-keywords:
-image_path: /images/adventure.jpg
+image_path: /uploads/E1.jpg
 categories:
   - asia
 slug: eigth-post
 type: Destinations
-destination:
+destination: asia
 accommodation-description: Hi I am the accommodation description
 affiliate-link: 'https://www.booking.com'
 accommodations:
@@ -42,3 +42,21 @@ One of our travel bucket list items before setting off to experience the world, 
 Our research pointed us towards this incredible Elephant sanctuary in Thailand called Elephant Nature Park.
 
 If you want to contribute towards ethical animal rescue in Thailand and would love to become an elephant sanctuary volunteer then read about our experience and make sure you too experience the life changing Elephant Nature Park.
+
+![](/uploads/e2.jpg){: width="1024" height="683"}
+
+## The history behind this elephant rescue park in Chiang Mai
+
+Elephant conservation in Thailand has seen a massive shift in recent years. Elephant Nature Park is an elephant sanctuary and rescue centre in Chiang Mai, Thailand that rescue and rehabilitate elephants that are abused through being forced to work in trades such as illegal logging, street begging, forced breeding, circus and entertainment shows, and elephant riding or trekking.
+
+Co-founded in the 1990’s by Sangduen ‘Lek’ Chailert, it now seeks to provide a forever home for these elephants. There are currently around 70 elephants residing in the 250 acres of Elephant Nature Park grounds.
+
+Visitors and elephant sanctuary volunteers to the park can participate in activities such as bathing, feeding and preparing meals for the elephants, as well as walking with them on treks.
+
+This is one amazing organisation and they don’t just rescue elephants. They have rescued many buffalo from the meat trade too. In 2011 there was a massive flood in Bangkok which evacuated the city. Elephant Nature Park hired boats to rescue over 2000 dogs and cats too.
+
+They tried to return as many as possible to their owners and rehomed most that were un-wanted or un-reunited. Over 350 remain at Elephant Nature Park in the dog rescue centre and in ’Cat Kingdom’.
+
+![](/uploads/e4.jpg){: .one-third width="1024" height="683"}![](/uploads/e5.jpg){: .one-third width="1024" height="683"}![](/uploads/e6.jpg){: .one-third width="1024" height="683"}
+
+![](/uploads/e7.jpg){: width="1024" height="683"}

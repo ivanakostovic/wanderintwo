@@ -94,4 +94,33 @@ Retiring to the lower deck we were fed another awesome local Indonesian meal and
 
 ![](/uploads/komodo-6.jpg){: .one-half width="1024" height="683"}![](/uploads/komodo-4.jpg){: .one-half width="1024" height="683"}
 
-&nbsp;
+*Dusk fell with the most amazing sunset just before the bats took flight*
+{: .caption}
+
+## Instagram worthy sunrise at Padar Island
+
+Day two started with an early rise at around 05:00 to transfer to Padar Island to begin a hike to the top. This has to be the sunrise spot in the Komodo National Park. It’s a pretty intense climb up various sets of stairs on the track to the very top. But it’s so worth it. The views from here are seriously sublime. If you want one good picture then it’s got to be from Padar.
+
+The light was glowing orange as the sun rose in the distance and lit up the tundra covered hills. This is how we wish we could start our mornings every morning. There was enough time to watch sunrise and take in the gorgeous scenery, meditate a little and really soak it all up. Top tip, turn right after the first set of stairs to have the mountain all to yourself.
+
+As well as some of the best views we’ve ever seen, there was an amazing white sand beach. We climbed down to explore the shoreline before our tender boat picked us up and transferred us back to our boat for breakfast. Make sure you save some time to check out this beach. Trekking Padar Island was one of the many highlights of our time in the Komodo Islands.
+
+![](/uploads/komodo-7.jpg){: width="1024" height="683"}
+
+*This wasn’t even the most amazing view from Padar Island*
+{: .caption}
+
+## Pink Beach Indonesia – Komodo Islands
+
+We were extremely excited for the next stop, Pink Beach Komodo. From the boat the sand looked white, but as we approached in the tender it got more pink. Apparently there are only seven pink beaches on the entire planet. There are two theories on how the beach gets its pink colour.
+
+The most popular is that the pink colour comes from dead red corals that get ground down and mix with the white sand. The less popular theory is that the pink colour comes from microscopic animals called foraminifera. Either way, it’s probably the best beach we’ve ever been to.
+
+The beach is uninhabited and completely unspoiled. The way the turquoise-blue sea meets the pink sand is mesmerising, especially when little waves crash on the shore creating whitewash. We found so many amazing seashells here, some the size of our heads. It was one of the richest beach environments we’ve ever been in.
+
+We had plenty of time to swim, snorkel, sunbathe and relax on this beautiful beach. It was seriously a dream. A bonus is that Travass Life have a drone which can get you the perfect picture from above.
+
+![](/uploads/komodo-8.jpg){: width="1024" height="683"}
+
+*We found so many amazing shells at Pink Beach*
+{: .caption}

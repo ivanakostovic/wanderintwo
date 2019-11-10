@@ -15,7 +15,7 @@ destination: asia
 accommodation-description: Hi I am the accommodation description
 affiliate-link: 'https://www.booking.com'
 accommodations:
-  - image:
+  - image: /uploads/seasta.jpg
     type: Hostel
     name: Seasta Komodo
     description: >-

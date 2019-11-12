@@ -29,8 +29,8 @@ pagination:
 
   {% assign filtered_posts = site.posts | where: 'spotlight', true %}
   {% include mixed-column-posts.html %}
-  
-  </section>
+
+</section>
 
 <!-- Recent Posts -->
 <section class="padded">
@@ -46,12 +46,9 @@ pagination:
       </div>
     {% endfor %}
   </div>
-    <div class="centered">
-      <a class="button" href="/blog">See all posts</a>
-    </div>
+</section>
 
 <!-- Pagination -->
-
   <div class="centered">
     {% if paginator.previous_page_path != nil %}
       <a class="button" href="{{ paginator.previous_page_path }}">
@@ -62,7 +59,5 @@ pagination:
       <a class="button" href="{{ paginator.next_page_path }}">
         Next
       </a>
-        {% endif %}
+      {% endif %}
   </div>
-
-</section>

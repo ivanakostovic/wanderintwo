@@ -1,6 +1,9 @@
 <div class="grid blog-loop mixed-columns">
 
-  {% for post in filtered_posts limit:1 %}
+  {% for post_url in page.posts limit:1 %}
+      {% assign post_path = post_url | prepend: "_posts/" | append: ".md" %}
+      {% assign post = site.posts | where: "path", post_path | first %}
+
   <div class="col-6_sm-12">
     <a href="{{post.url}}" class="white-box blog-item light-bg">
       <div class="bg-image bg-image-lg" style="background-image:url('{{post.image_path}}')"> </div>
@@ -12,7 +15,10 @@
   </div>
   {% endfor %}
   <div class="grid col-6_sm-12 padded-1">
-    {% for post in filtered_posts limit:2 offset:1 %}
+     {% for post_url in page.posts limit:2 offset:1 %}
+        {% assign post_path = post_url | prepend: "_posts/" | append: ".md" %}
+        {% assign post = site.posts | where: "path", post_path | first %}
+
     <a href="{{post.url}}" class="col-12 white-box grid flex-flip light-bg">
       <div class="col-6_sm-12 bg-image bg-image-sm" style="background-image:url('{{post.image_path}}')">
       </div>

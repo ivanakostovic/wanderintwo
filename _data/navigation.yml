@@ -18,7 +18,7 @@
       url: /test
     - title: Photography
       url: /test-2
-    - title: Social Media
+    - title: Social Medias
       url: /test-2
     - title: Travel
       url: /test-2
@@ -26,5 +26,6 @@
   url: /blog
 - title: Online Courses
   url: https://www.learnwith.wanderintwo.com/
+  external: true
 - title: Work With Us
   url: /work-with-us

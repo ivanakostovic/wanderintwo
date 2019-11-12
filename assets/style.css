@@ -52,8 +52,9 @@
 
   /* General typography */
 
-  h1{
+  h1, .h1-style {
     font-family: 'Staatliches', cursive;
+    font-size: 3rem;
     color: white;
     text-shadow: 1px 1px 30px rgba(100,100,100,0.3);
   }
@@ -351,10 +352,6 @@
     background-size: cover;
     background-position: center;
     min-height: 80vh;
-  }
-
-  .banner h1 {
-    font-size: 3rem;
   }
 
   .fixed {

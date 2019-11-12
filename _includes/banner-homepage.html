@@ -1,9 +1,15 @@
 <!-- This is a re-usable banner -->
 <!-- Call it by providing values for url, image_path, and title -->
 {% assign banner = include.banner %}
+
 <a href="{{banner.url}}"><section class="banner grid-bottom padded" style="background-image:url('{{banner.image_path}}');">
   <div class="col-9_xs-12">
+    {% if heading < 2 %}
     <h1> {{banner.title}}</h1>
+    {% else %}
+    <h2 class="h1-style"> {{banner.title}}</h2>
+    {% endif %}
+      {% assign heading = heading | plus:1 %}
   </div>
 </section>
 </a>

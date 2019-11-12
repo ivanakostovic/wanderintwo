@@ -41,6 +41,7 @@ accommodations:
     url: >-
       https://www.booking.com/hotel/th/eden-garden-resort-changwat-chiang-mai.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaGiIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgO4ApPFne4FwAIB;sid=f7789395429c9a9cbae26d861859d3c5;dest_id=-3247115;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1573347995;srpvid=056807cde8380043;type=total;ucfs=1&#hotelTmpl
 spotlight: true
+posts:
 ---
 
 Regarded as not only the best elephant sanctuary in Chiang Mai but also the best elephant sanctuary in Thailand,&nbsp;***[ELEPHANT NATURE PARK](https://www.elephantnaturepark.org/){: target="_blank"}***&nbsp;is the perfect place for anyone looking to become an elephant sanctuary volunteer. To volunteer with elephants is one of the most rewarding things you could possibly imagine to do.

@@ -61,17 +61,13 @@ layout: default
       </h2>
       <div class="grid blog-loop">
 
-        {% capture pageCategory %}{{ page.categories[0] }}{% endcapture %}
+        {% for post_url in page.posts %}
+          {% assign post_path = post_url | prepend: "_posts/" | append: ".md" %}
+          {% assign post = site.posts | where: "path", post_path | first %}
 
-        {% for post in site.categories[pageCategory] limit:4 %}
-
-        {% if post.url != page.url %}
-
-        <div class="col-6_sm-12 padded-1">
-          {% include post-loop-item.html %}
-        </div>
-
-        {% endif %}
+          <div class="col-6_sm-12 padded-1">
+            {% include post-loop-item.html %}
+          </div>
 
         {% endfor %}
       </div>

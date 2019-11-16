@@ -59,6 +59,23 @@ posts:
 
   </section>
 
+<!-- banner -->
+{% assign banner = page.banner[2] %}
+{% include banner-homepage.html banner=banner %}
+
+<!-- About Us Section -->
+<section class="light-bg">
+    <div class="col-6_sm-12-middle capped-width padded centered">
+      <h2>
+        Hi, we're Jamie and Ivana
+      </h2>
+      <p class="editable">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <a class=" editable button" href="/about-us">Read our story</a>
+  </div>
+</section>
+
 <!-- Products Section -->
 <section class="padded centered">
   <h2> Featured Online Courses </h2>
@@ -78,10 +95,6 @@ posts:
   </div>
   <a class="button" href="/about-us">See All Online Courses</a>
 </section>
-
-<!-- banner -->
-{% assign banner = page.banner[2] %}
-{% include banner-homepage.html banner=banner %}
 
 <!-- Work With Us Section -->
 <section class="light-bg">

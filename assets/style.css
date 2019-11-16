@@ -420,6 +420,13 @@
     margin-bottom: 0;
   }
 
+  /* About us on homepage */
+
+  .aboutus img {
+  border-radius: 50%;
+  padding-top: 2%; 
+}
+
   /* Blog Post Elements */
   /* ---- Blog loop elements style 1 ------ */
   .blog-loop .blog-item {
@@ -649,50 +656,6 @@
   .masonry {
     column-count: 1;
   }
-}
-
-/* pricing cards  */
-
-.card.featured {
-  border: 2px solid orange;
-}
-
-.price {
-    font-size: 3rem;
-    font-weight: 300;
-}
-
-.pricing-name {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: rgb(120,120,125);
-}
-
-.card .button {
-  margin-top:2rem;
-}
-
-/* Responsive video */
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container.vertical {
-  padding-bottom: 162.25%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* Accordian slides */

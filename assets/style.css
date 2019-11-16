@@ -206,7 +206,10 @@
   /* Headers and footers */
 
   header {
-    padding: 2% 5%;
+    padding: 1% 5%;
+    position: fixed;
+    background-color: #fff;
+      width: 100%;
   }
 
   header a,

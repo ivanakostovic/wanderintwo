@@ -384,7 +384,7 @@
     background-image: url('/images/adventure.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 10rem;
+    min-height: 15rem;
   }
 
   /* Hover grid */
@@ -424,7 +424,7 @@
 
   .aboutus img {
   border-radius: 50%;
-  padding-top: 2%; 
+  padding-top: 2%;
 }
 
   /* Blog Post Elements */

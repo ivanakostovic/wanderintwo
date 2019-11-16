@@ -51,7 +51,7 @@ posts:
 <!-- Spotlight Section -->
 <section class="padded">
   <div class="capped-width margin-bottom centered editable">
-    <h2>Spotlight on</h2>
+    <h2 class="editable">Spotlight on</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </div>
 
@@ -62,6 +62,23 @@ posts:
 <!-- banner -->
 {% assign banner = page.banner[2] %}
 {% include banner-homepage.html banner=banner %}
+
+<!-- Products Section -->
+<section class="padded centered">
+  <h2> Learn how to blog! </h2>
+  <div class="grid padded-1">
+    <div class="col-4_sm-12 padded-1">
+      <img src="/images/seo-and-monetisation-masterclass.png" alt="">
+    </div>
+    <div class="col-4_sm-12 padded-1">
+      <img src="/images/the-no-bs-blogging-course.png" alt="">
+      </div>
+    <div class="col-4_sm-12 padded-1">
+      <img src="/images/mailing-list.png" alt="">
+      </div>
+  </div>
+  <a class="button" href="/about-us">See All Online Courses</a>
+</section>
 
 <!-- About Us Section -->
 <section class="aboutus light-bg">
@@ -78,26 +95,6 @@ posts:
       </div>
       <a class=" editable button" href="/about-us">Read our story</a>
   </div>
-</section>
-
-<!-- Products Section -->
-<section class="padded centered">
-  <h2> Featured Online Courses </h2>
-  <div class="grid padded-1">
-    <div class="col-4_sm-12 padded-1">
-      <div class="bg-image" style="background-image:url('/images/person.png')">
-      </div>
-    </div>
-    <div class="col-4_sm-12 padded-1">
-      <div class="bg-image" style="background-image:url('/images/person.png')">
-      </div>
-    </div>
-    <div class="col-4_sm-12 padded-1">
-      <div class="bg-image" style="background-image:url('/images/person.png')">
-      </div>
-    </div>
-  </div>
-  <a class="button" href="/about-us">See All Online Courses</a>
 </section>
 
 <!-- Work With Us Section -->

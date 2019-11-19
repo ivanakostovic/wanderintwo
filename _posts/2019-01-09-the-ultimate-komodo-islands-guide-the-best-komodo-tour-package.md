@@ -50,6 +50,8 @@ posts:
 
 *Around that time there were around 500-1000 visitors to the Komodo Islands daily but in the years following there has been a massive increase. Beat the impending crowds and come and experience Indonesia’s latest piece of paradise.*
 
+1\. Travass Life<br>2\. Kelor Island<br>3\.&nbsp;
+
 ![](/uploads/komodo-2.jpg){: width="1024" height="683"}
 
 *Sailing the Komodo Islands offers the chance to experience unique landscapes, flora and fauna*

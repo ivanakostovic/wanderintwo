@@ -47,9 +47,11 @@ posts:
   - 2019-01-02-second-post
 ---
 
-*Indonesia is fast becoming one of the most popular tourist destinations in the world with Bali being the heart beat of that. However as everyone looks for the next best destination it seems that the popularity is shifting from Bali to Komodo Island. Home to the famous Komodo Island Pink Beach, Rinca Island, Kelor Island Pulau Komodo, and of course the famous Komodo Dragon Island it isn’t hard to understand why.*
+*Indonesia is fast becoming one of the most popular tourist destinations in the world with Bali being the heart beat of that. However as everyone looks for the next best destination it seems that the popularity is shifting from Bali to Komodo Island. Home to the famous Komodo Island Pink Beach, Rinca Island, Kelor Island Pulau Komodo, and of course the famous Komodo Dragon Island it isn’t hard to understand *
 
-*If you are looking to indulge your travel gland and want to satisfy the animal lover in you by seing a baby Komodo Dragon then we recommend a Komodo liveaboard. We done a 3 day 2 night Komodo tour package with&nbsp;**[TRAVASS LIFE](https://travass.life/komodoisland/){: target="_blank"}**&nbsp;who were incredible from start to finish. Thanks to the Komodo Island National Park tours the mainland port of Labuan Bajo has seen a sharp increase in visitors since the 300,000 that passed through in 2017.*
+&lt;hr&gt;
+
+*in you by seing a baby Komodo Dragon then we recommend a Komodo liveaboard. We done a 3 day 2 night Komodo tour package with&nbsp;**[TRAVASS LIFE](https://travass.life/komodoisland/){: target="_blank"}**&nbsp;who were incredible from start to finish. Thanks to the Komodo Island National Park tours the mainland port of Labuan Bajo has seen a sharp increase in visitors since the 300,000 that passed through in 2017.*
 
 *Around that time there were around 500-1000 visitors to the Komodo Islands daily but in the years following there has been a massive increase. Beat the impending crowds and come and experience Indonesia’s latest piece of paradise.*
 

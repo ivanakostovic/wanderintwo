@@ -1,21 +1,32 @@
 <ul class="nav">
-    {% assign links = site.data.navigation %}
-    {% for link in links %}
-        {% if link.sublinks %}
-            <li class="dropdown">
-                <a href="{{ link.url }}" class="dropdown-toggle" {% if link.external == true %} target="_blank"{% endif %}>{{ link.title }} <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    {% for sublink in link.sublinks %}
-                            <li>
-                                <a href="{{ sublink.url }}" {% if link.external == true %} target="_blank"{% endif %}>{{ sublink.title }}</a>
-                            </li>
-                    {% endfor %}
-                </ul>
-            </li>
-        {% else %}
-            <li>
-                <a href="{{ link.url }}" {% if link.external == true %} target="_blank" {% endif %}>{{ link.title }}</a>
-            </li>
+  {% assign links = site.data.navigation %}
+  {% for link in links %}
+  {% if link.sublinks %}
+  <li class="dropdown">
+    <a href="{{ link.url }}" class="dropdown-toggle" {% if link.external == true %} target="_blank"{% endif %}>{{ link.title }} <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      {% for sublink in link.sublinks %}
+      <li>
+        {% if sublink.sub-sublink %}
+        <span class="sub-sub-menu">
+          {% endif %}
+          <a href="{{ sublink.url }}" {% if link.external == true %} target="_blank"{% endif %}>{{ sublink.title }}</a>
+          {% if sublink.sub-sublink %}
+          <div class="sub-sub-content">
+            {% for sub-sublink in sublink.sub-sublink %}
+            <a href="{{ sub-sublink.url }}" {% if link.external == true %} target="_blank"{% endif %}>{{ sub-sublink.title }}</a>
+            {% endfor %}
+          </div>
+        </span>
         {% endif %}
-    {% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% else %}
+  <li>
+    <a href="{{ link.url }}" {% if link.external == true %} target="_blank" {% endif %}>{{ link.title }}</a>
+  </li>
+  {% endif %}
+  {% endfor %}
 </ul>

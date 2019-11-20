@@ -3,7 +3,7 @@
 $(document).ready(function() {
 	//make sure the page is ready befor running the scripts
 	// This is the hamburger menu
-	$(".hamburger").click(function(){
+	$(".burger-button").click(function(){
 
 	  $(this).toggleClass('active');
 	  $(".mobile-menu").fadeToggle();

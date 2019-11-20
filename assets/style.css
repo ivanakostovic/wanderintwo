@@ -34,6 +34,7 @@
   .padded   {  padding: 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
+  .padded-bottom-1{padding-bottom:1rem}
 
   .capped-width { width: 60%; margin: auto;}
 
@@ -242,6 +243,29 @@
     color: white;
   }
 
+  .sub-sub-content {
+    position: absolute;
+    right: -100%;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: none;
+    padding:0 1rem 1rem;
+  }
+
+  .sub-sub-menu{
+    display: block;
+  }
+
+  .sub-sub-menu:hover .sub-sub-content{
+    display: block;
+  }
+
+.sub-sub-content a{
+  display: block;
+}
+
   .social-icons {
     font-size: 2rem;
     letter-spacing: 8px;
@@ -271,6 +295,8 @@
     top: 2rem;
     right: -1rem;
     background-color: white;
+    z-index: 2;
+        text-align: left;
   }
 
   /* Fixed Header Option */
@@ -518,11 +544,15 @@
   }
 
   /* ----- FORMS --------------------------- */
-
+  label{
+    text-transform: uppercase;
+  }
   input,
   textarea {
+    font-family: 'Raleway', sans-serif;
     border-style: solid;
-    border: 2px solid rgb(200, 200, 205);
+    border: 0px solid rgb(200, 200, 205);
+    border-bottom: 2px solid black;
     padding: 0.8em;
     display: block;
     width: 100%;
@@ -541,9 +571,10 @@
     min-height: 7em;
   }
 
-  input[type="submit"] {
+  #mc_embed_signup .button {
     width: auto;
     display: block;
+    background-color: black!important;
   }
 
   form [class*=col-] {
@@ -763,19 +794,60 @@ img.small-centered {
   margin:auto;
 }
 
+/* This is the hamburger styling from Deswin Codepen */
 
-/* Clear Floats */
-p.clear-images-paragraph {
-  clear: both;
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.burger-button span{
+  width: 40px;
+  border-bottom: 1px solid black;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: .2s;
+}
+.burger-button.active span{
+  border-color: #226622;
+  background-color:#383;
 }
 
-h2.clear-images-h2 {
-  clear: both;
-}
-h3.clear-images-h3 {
-  clear: both;
+.burger-top, .burger-bottom{
+  position: absolute;
 }
 
+.burger-top{
+  top: -02px;
+}
+
+.burger-bottom{
+  bottom: -02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+/*   transform: rotateZ(270deg); */
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
 
 
 /* This media query kicks into action at the gridlex sm breakpoint */

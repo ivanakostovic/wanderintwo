@@ -1,0 +1,5 @@
+<ol class="grid anchor-link">
+  {% for link in page.contents %}
+  <li class="col-6"><a href="#{{link.anchor}}">{{link.title}}</a></li>
+  {% endfor %}
+</ol>

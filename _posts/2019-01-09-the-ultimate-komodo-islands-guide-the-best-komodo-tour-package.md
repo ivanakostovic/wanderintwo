@@ -45,6 +45,19 @@ posts:
   - 2019-01-01-first-blog-post
   - 2019-01-01-first-post
   - 2019-01-02-second-post
+contents:
+- title: the First night party that was awesome
+  anchor: first
+- title: second
+  anchor: second
+- title: 3
+  anchor: #first
+- title: 4
+  anchor: #second
+- title: 5
+  anchor: #first
+- title: 6
+  anchor: #second
 ---
 
 *Indonesia is fast becoming one of the most popular tourist destinations in the world with Bali being the heart beat of that. However as everyone looks for the next best destination it seems that the popularity is shifting from Bali to Komodo Island. Home to the famous Komodo Island Pink Beach, Rinca Island, Kelor Island Pulau Komodo, and of course the famous Komodo Dragon Island it isn’t hard to understand why.*
@@ -53,7 +66,7 @@ posts:
 
 *Around that time there were around 500-1000 visitors to the Komodo Islands daily but in the years following there has been a massive increase. Beat the impending crowds and come and experience Indonesia’s latest piece of paradise.*
 
-1\. Travass Life<br>2\. Kelor Island<br>3\.&nbsp;
+{% include table-of-contents.html %}
 
 ![](/uploads/komodo-2.jpg){: width="1024" height="683"}
 
@@ -61,8 +74,8 @@ posts:
 {: .caption}
 
 ## 3D2N sailing Komodo tour package from Flores with Travass Life – The best tour Komodo tour company
-
-We embarked on a 3 day 2 night Komodo live-aboard tour of the Komodo Islands with&nbsp;***[TRAVASS LIFE](https://travass.life/komodoisland/){: target="_blank"}***&nbsp;and it’s one of the best experiences we’ve had in Indonesia. Included was a room with air conditioning, all meals and water (catered to dietary requirements), entrance fees to all the islands, trekking fees, snorkelling equipment, free-flow tea and coffee, pick ups and drop offs and a personal photographer who is equipped with a camera and drone.
+<span id="first"></span>
+We embarked on a 3 day 2 night Komodo live-aboard tour of the Komodo Islands with&nbsp;***[TRAVASS LIFE](https://travass.life/komodoisland/){: target="_blank"}***&nbsp;and it’s one of the best experiences we’ve had in Indonesia. Included was a room with air conditioning, all meals and water (catered to dietary requirements), entrance fees to all the islands, trekking fees, snorkelling equipment, free-flow tea and coffee, pick ups and drop offs and a personal photographer who is equipped with a camera and drone. { #first }
 
 They have the best Komodo Islands itinerary. Our first day included visits to Pulau Island, Rinca Island and Kalong Island. Day two included catching the sunrise at Padar Island, Pink Beach, snorkelling at Manta Point and sunset at Sebayur Island.
 
@@ -77,7 +90,7 @@ Gio and Adel, who own and run the tours are also the loveliest people in the ent
 *Our crew for the three days*
 {: .caption}
 
-## Kelor Island (Pulau Komodo)
+## Kelor Island (Pulau Komodo){#second}
 
 Our first destination on our Komodo Islands tour after leaving the port in Labuan Bajo was the uninhabited island of Kelor. We put our sneakers on and jumped in the tender boat that took us to shore. Once ashore we hiked up the trail on the island which is an extremely steep, natural dirt track. The views were amazing and we got some awesome pictures.
 

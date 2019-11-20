@@ -68,3 +68,10 @@ h2.clear-images-h2 {
 h3.clear-images-h3 {
   clear: both;
 }
+
+a.inlink{
+  display: block;
+  border-top: 2px solid #010101;
+  border-bottom: 2px solid #020202;
+  
+}

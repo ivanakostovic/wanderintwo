@@ -482,6 +482,16 @@
       margin-bottom: 2vh;
   }
 
+
+
+  .anchor-link li {
+    list-style-position: inside;
+  }
+
+  .anchor-link{
+      margin-bottom: 1rem;
+  }
+
   /* ---- Blog loop elements style 2 ------ */
   .blog-item-wide .bg-image {
     padding-bottom: 30%;

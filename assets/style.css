@@ -79,6 +79,11 @@
      margin-bottom: 0.8rem;
   }
 
+  p.caption{
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
   /* this makes sure that the last element in any container doesn't have margin-bottom */
   h2:last-child,
   h3:last-child,
@@ -481,6 +486,7 @@
   .post-body img {
       margin-bottom: 2vh;
   }
+
 
 
 

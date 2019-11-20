@@ -50,11 +50,14 @@ posts:
   - 2019-01-06-sixth-post
   - 2019-01-07-seventh-post
 contents:
-- title: dave
-  anchor: bob
+- title: page text that comes up on the list
+  anchor: anchor-target
 ---
 
 Ad quo animal legimus legendos. Ut eum veniam dicunt virtute, an noster voluptua convenire mei. At sed tollit scaevola, an maiorum repudiare per. Mei epicuri apeirian ne, usu iisque aliquam praesent ad, omnes ullamcorper in pri. Vitae quaeque mea cu. Mei quot laoreet laboramus eu, cu propriae patrioque maiestatis vel.
 
 
 {% include "table-of-contents" %}
+
+
+<span id="anchor-target"></span>

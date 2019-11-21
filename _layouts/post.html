@@ -57,7 +57,11 @@ layout: default
     <!-- Related Posts -->
     <section class="margin-top">
       <h2>
-        Related Posts
+        {% if page.read-more-text %}
+        {{page.read-more-text}}
+        {% else %}
+        Related Post
+        {% endif %}
       </h2>
       <div class="grid blog-loop">
 
@@ -71,6 +75,11 @@ layout: default
 
         {% endfor %}
       </div>
+      <a href="/destinations/{{page.destination}}">
+        <div class="{{page.destination}}-bg" {% if page.read-more-bg %}style="background-image:url('{{page.read-more-bg}}')"{% endif %}>
+          <h3>See more from {{page.destination}}</h3>
+        </div>
+      </a>
     </section>
   </div>
 

@@ -34,7 +34,8 @@
   .padded   {  padding: 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
-  .padded-bottom-1 {padding-bottom:1rem}
+  .padded-bottom-1 {padding-bottom: 1rem}
+  .padded-top-1 {padding-top: 1rem}
 
   .capped-width { width: 60%; margin: auto;}
 
@@ -57,6 +58,12 @@
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
     color: white;
+  }
+
+  .h1-alternative {
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    color: black;
     text-shadow: 1px 1px 30px rgba(100,100,100,0.3);
   }
 

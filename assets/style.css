@@ -477,6 +477,16 @@
   padding-top: 2%;
 }
 
+/* Polaroids on About Us page */
+
+.r-right{
+  transform:rotate(15deg)
+}
+
+.r-left{
+  transform:rotate(-15deg)
+}
+
   /* Blog Post Elements */
   /* ---- Blog loop elements style 1 ------ */
   .blog-loop .blog-item {

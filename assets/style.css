@@ -427,12 +427,12 @@
     margin-bottom: 0;
   }
 
-  /* About us on homepage */
+/* Homepage sections */
 
-  .aboutus img {
-  border-radius: 50%;
-  padding-top: 2%;
+.image-overlap {
+  display: block;
 }
+
 
 /* Polaroids rotation on About Us page */
 

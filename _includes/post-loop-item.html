@@ -4,10 +4,5 @@
 <a href="{{post.url}}" class="blog-item">
   <div class="bg-image" style="background-image:url('{{post.image_path}}')"> </div>
   <h3> {{post.title}} </h3>
-  <p>
-  {% for category in post.categories %}
-    <a href="/destination/{{category | slugify}}" class="category"> {{category}} </a>
-  {% endfor %}
-  </p>
   <p> {{post.excerpt | strip_html | truncate:100 }} </p>
 </a>

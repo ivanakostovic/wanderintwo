@@ -430,15 +430,18 @@
 
 /* Homepage sections */
 
+/* These are the classes for About Us section images of Jamie and Ivana on the Homepage */
 .jamie-home {
+  width: 45%;
   display: inline-block;
-  z-index: 1;
 }
 
 .ivana-home {
+  width: 45%;
   display: inline-block;
-  z-index: 2;
+  margin-left: -30px;
 }
+
 /* Polaroids rotation on About Us page */
 
 .r-right{

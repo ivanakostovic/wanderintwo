@@ -442,7 +442,13 @@
   margin-left: -30px;
 }
 
-/* Polaroids rotation on About Us page */
+.about-home {
+  width: 45%;
+  display: inline-block;
+  margin-left: -30px;
+}
+
+/* Polaroids rotation on About Us page and Homepage */
 
 .r-right{
   transform:rotate(15deg)

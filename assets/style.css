@@ -38,6 +38,7 @@
   .padded-top-1 {padding-top: 1rem}
 
   .capped-width { width: 60%; margin: auto;}
+  .capped-width-1 { width: 80%; margin: auto;}
 
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
@@ -437,12 +438,6 @@
 }
 
 .ivana-home {
-  width: 45%;
-  display: inline-block;
-  margin-left: -30px;
-}
-
-.about-home {
   width: 45%;
   display: inline-block;
   margin-left: -30px;

@@ -31,13 +31,14 @@
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
 
-  .padded   {  padding: 5%;    }
-  .padded-1 {  padding: 1rem;  }
-  .padded-2 {  padding: 2rem;  }
+  .padded       {  padding: 5%;    }
+  .padded-top   {  padding: 10%;   }
+  .padded-1     {  padding: 1rem;  }
+  .padded-2     {  padding: 2rem;  }
   .padded-bottom-1 {padding-bottom: 1rem}
   .padded-top-1 {padding-top: 1rem}
 
-  .capped-width { width: 60%; margin: auto;}
+  .capped-width   { width: 60%; margin: auto;}
   .capped-width-1 { width: 80%; margin: auto;}
 
   .tall-50  {  min-height: 50vh;   }
@@ -67,23 +68,20 @@
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
     color: black;
-    text-shadow: 1px 1px 30px rgba(100,100,100,0.3);
   }
 
-  h2, h3, h4 {
+  h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-  }
-
-  h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
   }
 
-  h2  { font-size: 1.6rem;   }
-  h3  { font-size: 1.25rem; font-weight: 600; letter-spacing: .02rem; }
-  h4  { font-size: 1.15rem;  }
-  p   { font-size: 1rem;  }
+  h2  { font-size: 1.6rem; font-weight: 600; }
+  h3  { font-size: 1.25rem; font-weight: 500; letter-spacing: .02rem; }
+  h4  { font-size: 1.15rem;  font-weight: 500;  }
+  h5  { font-size: 1rem;  font-weight: 500;    }
+  p   { font-size: 1rem;     }
 
   p, ul {
      margin-bottom: 0.8rem;
@@ -117,6 +115,11 @@
   }
 
   /* ------- unique typography styles - adjust to suit your styles  --------- */
+
+  li {
+    margin-right: 20px;
+    list-style-position: inside;
+  }
 
   .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */

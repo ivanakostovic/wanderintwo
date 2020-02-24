@@ -133,32 +133,6 @@
     font-size: 1.2rem;
   }
 
-  /* Icons */
-
-  .far {        /* default styles for font awesome icons */
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .featured-stat {     /* styles for our featured statistic icons  */
-    font-size: 3rem;
-    color: #e67e22;
-    margin-bottom: 1rem;
-    display: block;
-  }
-
-  .highlight { /* this is applied to spans for out highlighted text. */
-    background-color: rgb(240, 240, 245);
-    display: inline-block;
-    padding: 0.5rem;
-    margin: 2px;
-  }
-
-  .quote-icon {  /* You can also change the fonts for these icons specifically */
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   /* ---------------  Button Styles  --------- */
 
   .button {
@@ -184,7 +158,7 @@
     padding: 1% 5%;
     position: fixed;
     background-color: #fff;
-      width: 100%;
+    width: 100%;
   }
 
   header a,
@@ -202,19 +176,6 @@
   }
   nav a:hover {
     color: #e67e22;
-  }
-
-  header nav a.emphasis {
-    /* padding: 0.5rem 2rem; */
-    margin: 0 0.5rem;
-    border: 1px solid #e67e22;
-    border-radius: 2px;
-    color: #e67e22;
-  }
-
-  header nav a.emphasis:hover {
-    background-color: #e67e22;
-    color: white;
   }
 
   .sub-sub-content {
@@ -272,24 +233,6 @@
     z-index: 2;
         text-align: left;
   }
-
-  /* Fixed Header Option */
-
-  header.fixed {
-    position: fixed;
-    background-color: #f9ca24;
-    top:0;
-    left:0;
-    right:0;
-    z-index: 2;
-    margin:0;
-    padding: 1%;
-    text-align: center;
-  }
-  .bump-for-header {
-    min-height: 4rem;
-  }
-
 
   /* Hamburger Menu */
   .hamburger,
@@ -364,20 +307,6 @@
   .banner-with-header {
     padding-top: 6rem;
     min-height: 100vh;
-  }
-
-  .absolute-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    background: none;
-  }
-
-  .bg-pencils {
-    background-image: url('/images/pencils.jpg');
-    background-position: left;
   }
 
   .bg-image {

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Podcast Page
+pagination:
+  enabled: true
+meta-description:
+meta-keywords:
+featured-image_path:
+---
+
+<section class="padded">
+  <h1 class="centered"> Latest on Jamie's Wee Podcast </h1>
+
+  <!-- Recent Posts -->
+<section>
+  <div class="grid podcast-loop">
+    {% for post in paginator.posts %}
+      <div class="col-4_sm-12 padded-1">
+        {% include podcast-loop-item.html %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Pagination -->
+
+  <div class="centered">
+    {% if paginator.previous_page_path != nil %}
+    <a class="button" href="{{ paginator.previous_page_path }}">
+      Previous
+    </a>
+    {% endif %}
+    {% if paginator.next_page_path != nil %}
+    <a class="button" href="{{ paginator.next_page_path }}">
+      Next
+    </a>
+    {% endif %}
+  </div>
+
+
+</section>

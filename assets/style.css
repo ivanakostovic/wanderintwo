@@ -485,7 +485,6 @@
       margin-bottom: 2vh;
   }
 
-
   .anchor-link li {
     list-style-position: inside;
   }
@@ -497,6 +496,21 @@
   /* ---- Blog loop elements style 2 ------ */
   .blog-item-wide .bg-image {
     padding-bottom: 30%;
+  }
+
+/* --- Podcast loop element style --- */
+  .podcast-loop .podcast-item {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display:block;
+  }
+
+  .podcast-loop .bg-image {
+    padding-bottom: 60%;
+    margin-bottom: 0.5rem;
   }
 
   .text-bump { /* selects every second one and reverses it */

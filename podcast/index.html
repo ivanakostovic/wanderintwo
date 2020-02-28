@@ -3,6 +3,7 @@ layout: default
 title: Podcast Page
 pagination:
   enabled: true
+  collection: podcasts
 meta-description:
 meta-keywords:
 featured-image_path:
@@ -11,10 +12,10 @@ featured-image_path:
 <section class="padded">
   <h1 class="centered"> Latest on Jamie's Wee Podcast </h1>
 
-  <!-- Recent Posts -->
+  <!-- Recent Podcasts -->
 <section>
   <div class="grid podcast-loop">
-    {% for post in paginator.posts %}
+    {% for podcast in paginator.podcasts %}
       <div class="col-4_sm-12 padded-1">
         {% include podcast-loop-item.html %}
       </div>

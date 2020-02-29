@@ -56,6 +56,8 @@
   .margin-bottom-2 { margin-bottom: 2rem;}
   .margin-top { margin-top: 1rem;}
 
+  .position { position: relative;}
+
   /* General typography */
 
   h1, .h1-style {
@@ -154,9 +156,16 @@
     margin: 2px;
   }
 
-  .quote-icon {  /* You can also change the fonts for these icons specifically */
+  .quote-icon-float-left {  /* You can also change the fonts for these icons specifically */
     font-size: 6rem;
     line-height: 1;
+    float: left;
+  }
+
+  .quote-icon-float-right {
+    font-size: 6rem;
+    line-height: 1;
+    float: right;
   }
 
   /* ---------------  Button Styles  --------- */
@@ -895,6 +904,10 @@ img.small-centered {
   }
 
   .capped-width {
+    width: 100%;
+  }
+
+  .capped-width-1 {
     width: 100%;
   }
   .flex-flip{

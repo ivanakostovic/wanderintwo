@@ -11,6 +11,18 @@ $(document).ready(function() {
 	});
 	// end hamburger menu
 
+	// This is the Slick Carousel
+
+	$(document).ready(function(){
+  $('.slick').slick({
+    arrows: false,
+		dots: true,
+		autoplay: true,
+  });
+});
+
+// end Slick Carousel
+
 	// This is the pop-up gallery
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',

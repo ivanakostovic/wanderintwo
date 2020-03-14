@@ -17,7 +17,7 @@ $(document).ready(function() {
   $('.slick').slick({
     arrows: false,
 		dots: true,
-		autoplay: true,
+		autoplay: true
   });
 });
 

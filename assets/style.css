@@ -109,6 +109,10 @@
     color: inherit;
   }
 
+p a, .colorfullink {
+  color: green;
+}
+
   hr { /* this is a line element */
     border: none;
     border-bottom: 3px solid;

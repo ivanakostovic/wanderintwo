@@ -18,6 +18,7 @@
   body {
     font-family: 'PT Sans', sans-serif;
     color: #313131;
+    padding-top: 5rem;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -202,6 +203,9 @@ p a, .colorfullink {
     position: fixed;
     background-color: #fff;
       width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   header a,
@@ -888,14 +892,25 @@ img.small-centered {
 }
 
 
+/* This media query kicks into action at 1130px */
+
+@media(max-width:1130px) {
+  .hamburger{
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+} /* end media query */
+
 /* This media query kicks into action at the gridlex sm breakpoint */
+
 @media(max-width:768px) {
 
   .mob-hide {
     display: none;
-  }
-  .hamburger{
-    display: block;
   }
 
   .blog-item-wide .bg-image{

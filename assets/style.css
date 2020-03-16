@@ -884,7 +884,6 @@ img.small-centered {
 }
 
 /* make sure this has the same bottom as the burger button has padding*/
-
 .burger-button.active .burger-bottom{
   position: absolute;
   bottom: 8px;

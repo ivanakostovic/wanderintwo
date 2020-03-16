@@ -18,7 +18,7 @@
   body {
     font-family: 'PT Sans', sans-serif;
     color: #313131;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -848,14 +848,14 @@ img.small-centered {
 /*this is where you can chand the color of the buttons*/
 .burger-button span{
   width: 40px;
-  border-bottom: 1px solid black;
-  background-color: black;
+  border-bottom: 3px solid #000000;
+  background-color: #000000;
   display: block;
   border-radius: 22px;
   transition: .2s;
 }
 .burger-button.active span{
-  border-color: #226622;
+  border-color: #ffffff;
   background-color:#383;
 }
 

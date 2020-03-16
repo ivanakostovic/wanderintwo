@@ -2,68 +2,14 @@
   url: /about
 - title : Destinations
   url: /destinations
-  sublinks:
-    - title: Asia
-      url: /destinations/asia
-      sub-sublink:
-        - title: Brunei Darussalam
-          url:
-        - title: Hong Kong
-          url:
-        - title: Indonesia
-          url:
-        - title: Japan
-          url:
-        - title: Malaysia
-          url:
-        - title: Singapore
-          url:
-        - title: South Korea
-          url:
-        - title: Thailand
-          url:
-    - title: Europe
-      url: /destinations/europe
-      sub-sublink:
-        - title: Croatia
-          url:
-        - title: England
-          url:
-        - title: France
-          url:
-        - title: Italy
-          url:
-        - title: Jersey
-          url:
-        - title: Scotland
-          url:
-        - title: Spain
-          url:
-    - title: Middle East
-      url: /destinations/middle-east
-      sub-sublink:
-        - title: Turkey
-          url:
-    - title: North America
-      url: /destinations/north-america
-      sub-sublink:
-        - title: Mexico
-          url:
 - title : Advice
   url: /advice
-  sublinks:
-    - title: Health
-      url: /test
-    - title: Photography
-      url: /test-2
-    - title: Social Media
-      url: /test-2
-    - title: Travel
-      url: /test-2
 - title: How to start a blog
   url: /blog
 - title: Online Courses
   url: https://www.learnwith.wanderintwo.com/
   external: true
+- title: Jamie's Wee Podcast
+  url: /podcast
 - title: Work With Us
   url: /work

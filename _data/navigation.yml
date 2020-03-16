@@ -4,12 +4,12 @@
   url: /destinations
 - title : Advice
   url: /advice
-- title: How to start a blog
+- title: Start a blog
   url: /blog
-- title: Online Courses
+- title: Our Courses
   url: https://www.learnwith.wanderintwo.com/
   external: true
-- title: Jamie's Wee Podcast
+- title: Podcast
   url: /podcast
 - title: Work With Us
   url: /work

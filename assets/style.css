@@ -89,10 +89,14 @@
      margin-bottom: 0.8rem;
   }
 
+  nav ul {
+  margin-bottom: 0rem;
+  }
+
   p.caption{
   margin-top: -1rem;
   margin-bottom: 2rem;
-}
+  }
 
   /* this makes sure that the last element in any container doesn't have margin-bottom */
   h2:last-child,
@@ -208,11 +212,11 @@ p a, .colorfullink {
     text-transform: uppercase;
   }
 
-  header nav a,
-  .inline a {
+  header nav a {
     display: inline-block;
-    padding: 0.5rem;
+    border: 1px solid black;
   }
+
   nav a:hover {
     color: #e67e22;
   }
@@ -331,6 +335,7 @@ p a, .colorfullink {
     background-color: rgb(60,60,65);
     padding: 10%;
   }
+
   .mobile-menu a {
     color: white;
     padding: 0.3rem;
@@ -342,9 +347,9 @@ p a, .colorfullink {
     list-style: none;
   }
 
-.mobile-menu ul ul{
-  margin-left: 0.5rem;
-}
+  .mobile-menu ul ul{
+    margin-left: 0.5rem;
+  }
 
   /* -- Footer -- */
 
@@ -777,11 +782,6 @@ p a, .colorfullink {
 
 
 /* Editor Typography Styles */
-
-h2.cursive {
-    font-family: cursive;
-    color: pink;
-}
 
 p.caption {
   line-height: 1;

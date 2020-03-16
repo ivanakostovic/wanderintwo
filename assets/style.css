@@ -214,11 +214,10 @@ p a, .colorfullink {
 
   header nav a {
     display: inline-block;
-    border: 1px solid black;
   }
 
   nav a:hover {
-    color: #e67e22;
+    color: #2e8d8f;
   }
 
   header nav a.emphasis {

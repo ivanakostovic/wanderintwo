@@ -354,6 +354,10 @@ p a, .colorfullink {
   }
 
   /* -- Footer -- */
+  .footer {
+    background-color: #252525;
+    color: #ffffff;
+  }
 
   footer .info {
     padding-right: 3rem;
@@ -363,8 +367,8 @@ p a, .colorfullink {
     display:block;
   }
 
-  footer h3 {
-    font-size: 1.2rem;
+  footer p a {
+    colour: #ffffff;
   }
 
   /* BANNERS */

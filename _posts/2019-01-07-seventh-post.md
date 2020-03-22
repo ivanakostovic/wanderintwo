@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seventh Blog Post
+title: Seventh Blog Post cool and quirky (things to do in Bali)
 sub-title: This is my post sub-title
 meta-description:
 meta-keywords:

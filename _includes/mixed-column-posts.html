@@ -9,7 +9,6 @@
       <div class="bg-image bg-image-lg" style="background-image:url('{{post.image_path}}')"> </div>
       <div class="padded-1">
         <h3> {{post.title}} </h3>
-        <p> {{post.excerpt | strip_html | truncate:100 }} </p>
       </div>
     </a>
   </div>
@@ -22,10 +21,8 @@
     <a href="{{post.url}}" class="col-12 white-box grid flex-flip light-bg">
       <div class="col-6_sm-12 bg-image bg-image-sm" style="background-image:url('{{post.image_path}}')">
       </div>
-      <div class="col-6_sm-12-middle padded">
+      <div class="col-6_sm-12-middle centered padded">
         <h3> {{post.title}} </h3>
-        <p> {{post.excerpt | strip_html | truncate:100 }}
-        </p>
       </div>
     </a>
     {% endfor %}

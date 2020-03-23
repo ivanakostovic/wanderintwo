@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$(".burger-button").click(function(){
 
 	  $(this).toggleClass('active');
-	  $(".mobile-menu").fadeToggle();
+	  $(".burger-menu").toggleClass('active');
 
 	});
 	// end hamburger menu

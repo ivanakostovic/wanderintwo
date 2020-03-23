@@ -18,7 +18,7 @@
   body {
     font-family: 'PT Sans', sans-serif;
     color: #313131;
-    padding-top: 4rem;
+    padding-top: calc(2vw + 40px);
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -201,6 +201,7 @@ p a, .colorfullink {
   header {
     padding: 1% 5%;
     position: fixed;
+    z-index: 9;
     background-color: #fff;
       width: 100%;
     top: 0;
@@ -310,48 +311,8 @@ p a, .colorfullink {
     min-height: 4rem;
   }
 
-  /* Hamburger Menu */
-  .hamburger,
-  .mobile-menu {
-    display: none;
-  }
 
-  .hamburger {
-    position: absolute;
-    top:0;
-    right:0;
-    z-index: 3;
-    font-size: 1.5rem;
-    padding:2% 5%;
-  }
-  .active {
-    color: #e67e22;
-  }
 
-  .mobile-menu {
-    position: absolute;
-    top: 0;
-    left:0;
-    right:0;
-    bottom: 0;
-    background-color: rgb(60,60,65);
-    padding: 10%;
-  }
-
-  .mobile-menu a {
-    color: white;
-    padding: 0.3rem;
-    display: block;
-    text-decoration: none;
-  }
-
-  .mobile-menu ul{
-    list-style: none;
-  }
-
-  .mobile-menu ul ul{
-    margin-left: 0.5rem;
-  }
 
   /* -- Footer -- */
   .footer {
@@ -367,8 +328,12 @@ p a, .colorfullink {
     display:block;
   }
 
-  footer p a {
-    colour: #ffffff;
+  .footer p a {
+    color: #ffffff;
+  }
+
+  .footer-text, .footer-text *{
+    text-transform: uppercase;
   }
 
   /* BANNERS */
@@ -749,11 +714,13 @@ p a, .colorfullink {
   position: relative;
   text-decoration: none;
 }
+
 .accordion dd {
   padding: 0.5rem;
 }
 
 /* Accordian Icon */
+
 .accordion dt a::after {
   position: absolute;
   top: 0;
@@ -772,11 +739,13 @@ p a, .colorfullink {
 .accordion dt a::after {
   content: "+";
 }
+
 .open::after {
   transform: rotateZ(45deg);
 }
 
 /* Post Page Styling */
+
 .hotel-listing{
   display: block;
   color: rgb(60,60,65);
@@ -785,7 +754,6 @@ p a, .colorfullink {
   border-radius: 5px;
   margin-bottom: 1rem;
 }
-
 
 /* Editor Typography Styles */
 
@@ -796,7 +764,6 @@ p.caption {
   font-style: italic;
   margin-bottom: 2rem;
 }
-
 
 /* Image Styles */
 
@@ -841,14 +808,20 @@ img.small-centered {
 
 /* This is the hamburger styling from Deswin Codepen */
 
+.hamburger {
+  display: none;
+}
+
 .burger-button {
   position:fixed;
-  top: 2vh;
+  top: 2.5vh;
   right: 2vh;
   z-index: 9;
   padding: 10px;
 }
+
 /*this is where you can chand the color of the buttons*/
+
 .burger-button span{
   width: 40px;
   border-bottom: 3.5px solid #000000;
@@ -857,8 +830,9 @@ img.small-centered {
   border-radius: 22px;
   transition: .2s;
 }
+
 .burger-button.active span{
-  border-color: #ffffff;
+  border-color: #000000;
   background-color:#383;
 }
 
@@ -873,6 +847,7 @@ img.small-centered {
 .burger-bottom{
   bottom: -02px;
 }
+
 /* make sure this has the same top as the burger button has padding*/
 .burger-button.active .burger-top{
   position: absolute;
@@ -893,10 +868,47 @@ img.small-centered {
   transform: rotateZ(-45deg);
 }
 
+.burger-menu {
+  display: flex;
+  position: fixed;
+  top: -100vh;
+  left:0;
+  right: 0;
+  bottom: 100vh;
+  background-color: #000000;
+  padding:5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 8;
+  transition:1s;
+  align-content:space-around;
+  justify-content:space-around;
+  flex-direction:column;
+}
 
-/* This media query kicks into action at 1130px */
+.burger-menu.active{
+  top:0;
+  bottom:0;
+}
 
-@media(max-width:1130px) {
+.burger-menu li {
+  list-style: none;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* This media query kicks into action at 1200px */
+
+@media(max-width:1200px) {
   .hamburger{
     display: block;
   }
@@ -938,9 +950,12 @@ img.small-centered {
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
+
 @media(max-width:576px) {
 
 } /* end media query */
+
+/* This is an alternative media query kicks into action just above (ie 1px above) the gridlex sm breakpoint */
 
 @media(min-width:768.1px){
   .bg-image-sm{
@@ -955,4 +970,4 @@ img.small-centered {
     padding-bottom: 0;
 }
 
-}
+} /* end media query */

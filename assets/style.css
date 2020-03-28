@@ -114,6 +114,10 @@
     color: inherit;
   }
 
+  p a:hover {
+    border-bottom: 1px solid #2e8d8f;
+  }
+
 p a, .colorfullink {
   color: #2e8d8f;
 }

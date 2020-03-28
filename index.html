@@ -41,7 +41,6 @@ posts:
   <div class="centered">
     <a class="button" href="/blog">See all blog posts</a>
   </div>
-
 </section>
 
 <!-- About Us Section -->
@@ -81,7 +80,7 @@ posts:
   </section>
 
 <!-- Destinations section -->
-<section class="dark-bg margin-bottom-2 padded">
+<section class="dark-bg padded">
   <div class="centered capped-width">
     <h2>
       Explore a new city
@@ -129,6 +128,23 @@ posts:
         Indulge in art, nightlife, tapas and busy open-air public squares and gardens in the city of 'The Bear and the Strawberry Tree'
       </p></a>
     </div>
+  </div>
+</section>
+
+<!-- Podcast section -->
+<section class="padded">
+  <h2>
+    Listen to Jamie's Wee Podcast
+  </h2>
+  <div class="grid blog-loop">
+    {% for podcast in site.podcasts limit:3 %}
+    <div class="col-4_md-6_xs-12 padded-1">
+      {% include podcast-loop-item.html %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="centered">
+    <a class="button" href="/podcast/">See all podcasts</a>
   </div>
 </section>
 

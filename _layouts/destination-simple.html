@@ -1,0 +1,48 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+{% include banner.html %}
+
+<!-- Intro Section -->
+<section class="grid-center padded">
+  <!-- TO DO: add alt text -->
+  <div class="col-9">
+    <p>
+      {{page.description}}
+    </p>
+  </div>
+</section>
+
+<!-- Recent Posts -->
+<section class="padded">
+  <h2>
+    All {{page.title}} posts
+  </h2>
+  <div class="grid blog-loop">
+    {% assign dest = page.title | downcase %}
+    {% assign posts = site.posts | where_exp: "post", "post.categories contains dest" %}
+    {% for post in posts limit:69 %}
+      <div class="col-4_sm-12 padded-1">
+        {% include post-loop-item.html %}
+      </div>
+    {% endfor %}
+  </div>
+
+</section>
+
+<!-- Pagination -->
+  <div class="centered">
+    {% if paginator.previous_page_path != nil %}
+      <a class="button" href="{{ paginator.previous_page_path }}">
+        Previous
+      </a>
+        {% endif %}
+        {% if paginator.next_page_path != nil %}
+      <a class="button" href="{{ paginator.next_page_path }}">
+        Next
+      </a>
+      {% endif %}
+  </div>

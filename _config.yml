@@ -121,5 +121,5 @@ _array_structures:
     - label: Separator Section
       icon:
       value:
-        _id: Separator
+        _id: separator
         text:

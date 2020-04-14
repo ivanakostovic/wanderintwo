@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-2
 title: 'Ultimate bali to gili trawangang guide (Travel, Hotel and 19 Things to Do)'
 sub-title: >-
   This is the only guide you need when it comes to the best things to do on Gili
@@ -54,7 +54,7 @@ accommodations:
     url: >-
       https://www.booking.com/hotel/id/gili-treehouses.en-gb.html?aid=1492689;sid=f7789395429c9a9cbae26d861859d3c5;dest_id=900048659;dest_type=city;dist=0;from_beach_key_ufi_sr=1;group_adults=2;group_children=0;hapos=3;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1573342293;srpvid=2eefa56ac7d10076;type=total;ucfs=1&#hotelTmpl
 spotlight: true
-posts: 
+posts:
 ---
 
 Travelling from Bali to Gili Trawangan for the first time can be a daunting thought. If you are unfamiliar on the best things to do on Gili T, how to get to Gili T, or the best places to stay on Gili Trawangan then it take a lot of research to figure these things out.

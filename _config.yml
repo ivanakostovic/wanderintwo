@@ -112,8 +112,8 @@ _array_structures:
       value:
         _id: text
         text_html:
-    - lable: Quote section
+    - label: Quote section
       icon:
       value:
         _id: quote
-        quote: 
+        quote:

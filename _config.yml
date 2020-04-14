@@ -103,3 +103,17 @@ pagination:
 ############################################################
   # Site configuration for the Auto-Pages feature
   # The values here represent the defaults if nothing is set
+
+page_blocks: []
+_array_structures:
+  page_blocks:
+    - label: Text section
+      icon:
+      value:
+        _id: text
+        text_html:
+    - lable: Quote section
+      icon:
+      value:
+        _id: quote
+        quote: 

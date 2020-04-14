@@ -1,0 +1,123 @@
+---
+layout: default
+---
+<!-- Reusable Banner -->
+{% include banner.html %}
+
+<!-- this is your post layout, each of your individual blog post pages will use this layout. -->
+<section class="grid padded">
+
+  <div class="col-8_sm-12 post-body padded-1">
+    <!-- Page.type is a variable I created to represent either destinations or advice  -->
+    <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
+      {% for category in page.categories %}
+      <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
+      {% endfor %}
+    </p> <!-- end categories -->
+    <h2> {{page.sub-title}} </h2>
+
+    {% for block in page.page_blocks %}
+     {% include blocks/{{block._id}}.html block=block %}
+    {% endfor %}
+
+    <!-- Accommodation Section -->
+    {% if page.accommodations %}
+    <h2>
+      Accommodation in {{page.destination}}
+    </h2>
+    <p>
+      {{page.accommodation-description}}
+    </p>
+    {% for accommodation in page.accommodations %}
+    <a href="{{accommodation.url}}" class="hotel-listing" target="_blank">
+      <div class="grid">
+        <!-- put stff here  -->
+        <div class="col-5_sm-12 bg-image-accommodation" style="background-image: url({{accommodation.image}})">
+        </div>
+        <div class="col-7_sm-12 padded-1">
+          <h4>
+            {{accommodation.type}}: {{accommodation.name}}
+          </h4>
+          <p>
+            {{accommodation.description}}
+          </p>
+        </div>
+        <!-- stuff ends here -->
+      </div>
+    </a>
+    {% endfor %}
+    <h4>
+      <a href="{{accommodation.affiliate-link}}">
+      See more accommodation in {{page.destination}}
+      </a>
+    </h4>
+    {% endif %}
+
+    <!-- Social Share -->
+    {% include social-share.html %}
+
+    <!-- Related Posts -->
+    <section class="margin-top">
+      <h2>
+        {% if page.read-more-text %}
+        {{page.read-more-text}}
+        {% else %}
+        Related Posts
+        {% endif %}
+      </h2>
+      <div class="grid blog-loop">
+
+        {% for post_url in page.posts %}
+          {% assign post_path = post_url | prepend: "_posts/" | append: ".md" %}
+          {% assign post = site.posts | where: "path", post_path | first %}
+
+          <div class="col-6_sm-12 padded-1">
+            {% include post-loop-item.html %}
+          </div>
+
+        {% endfor %}
+      </div>
+      <a href="/destinations/{{page.destination}}">
+        <div class="{{page.destination}}-bg" {% if page.read-more-bg %}style="background-image:url('{{page.read-more-bg}}')"{% endif %}>
+          <h3>See more from {{page.destination}}</h3>
+        </div>
+      </a>
+    </section>
+  </div>
+
+  <div class="col-4_sm-12 padded-1 mob-hide sidebar">
+
+    <!-- sidebar box 1: About Us -->
+    <div>
+      <h4> Welcome to Wander In Two </h4>
+      <div class="bg-image">
+      </div>
+      <div class="padded-bottom-1">
+        <p class="margin-top"> Hi, we are Jamie & Ivana!<br><br>A real and relatable travel couple inspiring others to make their travel dreams a reality
+        </p>
+        <a class="button" href="/about-us">Read our story</a>
+      </div>
+    </div>
+
+    <!-- sidebar box 2: Recent Posts -->
+    <div>
+      <h4>
+        Recently on the blog
+      </h4>
+      <div class="grid blog-loop">
+        {% for post in site.posts limit:4 %}
+        <div class="col-12 padded-bottom-1">
+          {% include post-loop-item.html %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <!-- sidebar box 3: Bluehost Ad -->
+    <div>
+      <a href="https://www.bluehost.com/track/wanderintwo/" target="_blank"> <img border="0" src="https://bluehost-cdn.com/media/partner/images/wanderintwo/300x250/300x250BW.png"> </a>
+    </div>
+
+    <!-- close sidebar -->
+</section>

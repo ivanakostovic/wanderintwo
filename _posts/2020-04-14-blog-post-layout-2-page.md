@@ -12,7 +12,9 @@ categories:
 slug: tenth-post
 type: Destinations
 destination: asia
-page_blocks: 
+page_blocks:
+  - _id: quote
+    quote: Dan in awesome!
 accommodation-description: Best places to stay in Gili Trawangan
 affiliate-link: 'https://www.booking.com/'
 accommodations:
@@ -57,3 +59,4 @@ accommodations:
 spotlight: true
 posts:
 ---
+

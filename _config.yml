@@ -117,3 +117,9 @@ _array_structures:
       value:
         _id: quote
         quote:
+        author:
+    - label: Separator Section
+      icon:
+      value:
+        _id: Separator
+        text:

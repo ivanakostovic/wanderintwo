@@ -42,6 +42,7 @@
   .capped-width   { width: 60%; margin: auto;}
   .capped-width-1 { width: 80%; margin: auto;}
 
+  .tall-30  {   min-height: 30vh;}
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 

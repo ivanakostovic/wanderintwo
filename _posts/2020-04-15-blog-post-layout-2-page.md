@@ -17,6 +17,8 @@ page_blocks:
     quote: Dan in awesome!
   - _id: separator
     text: hey this is a separator section
+  - _id: full-width-banner-image
+    image_path: /uploads/Komodo Feature.jpg
 accommodation-description: Best places to stay in Gili Trawangan
 affiliate-link: 'https://www.booking.com/'
 accommodations:
@@ -61,3 +63,4 @@ accommodations:
 spotlight: true
 posts:
 ---
+

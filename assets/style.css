@@ -354,6 +354,13 @@ p a, .colorfullink {
   .fixed {
     background-attachment: fixed;
   }
+  @media (max-width:450px) {
+    .fixed {
+      background-attachment: scroll !important;
+      background-size: cover;
+      background-position: center;
+    }
+  }
 
   .banner-with-header {
     padding-top: 6rem;

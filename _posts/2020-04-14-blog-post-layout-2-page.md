@@ -15,7 +15,7 @@ destination: asia
 page_blocks:
   - _id: quote
     quote: Dan in awesome!
-  - _id: Separator
+  - _id: separator
     text: hey this is a separator section
 accommodation-description: Best places to stay in Gili Trawangan
 affiliate-link: 'https://www.booking.com/'
@@ -61,4 +61,3 @@ accommodations:
 spotlight: true
 posts:
 ---
-

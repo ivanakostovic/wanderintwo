@@ -123,3 +123,8 @@ _array_structures:
       value:
         _id: separator
         text:
+    - label: Full Width Image Section
+      icon:
+      value:
+        _id: full-width-banner-image
+        image_path:

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Podcast Page
+title: Jamie's Wee Podcast
+image_path: /images/destinations-pages/england.jpg
 pagination:
   enabled: true
   collection: podcasts
@@ -9,14 +10,104 @@ meta-keywords:
 featured-image_path:
 ---
 
+<section class="banner grid-bottom padded" style="background-image:url('{{page.image_path}}');">
+  <div class="col-9_xs-12">
+    <h1> {{page.title}} </h1>
+  </div>
+</section>
+
+<section>
+  <div class="grid">
+  <div class="col-6_sm-12 padded centered">
+    <img src="images/adventure.jpg" alt="">
+  </div>
+  <div class="col-6_sm-12 padded centered">
+    <h2>
+      About Jamie's Wee Podcast
+    </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+  </div>
+</section>
+
 <section class="padded">
-  <h1 class="centered h1-alternative"> The latest on Jamie's Wee Podcast </h1>
+  <h2 class="centered">
+    Find Jamie's Wee Podcast on
+  </h2>
+  <div class="centered">
+    <a class="button" href="#">YouTube</a>
+    <a class="button" href="#">iTunes</a>
+    <a class="button" href="#">Spotify</a>
+    <a class="button" href="#">Google</a>
+    <a class="button" href="#">Anchor FM</a>
+    <a class="button" href="#">Stitcher</a>
+    <a class="button" href="#">RSS</a>
+  </div>
+</section>
+
+<section class="padded centered capped-width-1">
+  <h2>Sponsors</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-6_sm-12 padded centered">
+      <h2>
+        Support Jamie's Wee Podcast
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+        <br><br>
+        Patreon 1
+        <br><br>
+        Patreon 2
+      </p>
+    </div>
+    <div class="col-6_sm-12 padded centered">
+      <div class="">
+        <a class="button" href="#">Become a Patreon</a>
+      </div>
+      <div class="">
+        <a class="button" href="#">Donate via PayPal</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padded">
+  <div class="centered">
+    <h2>
+      Jamie's Wee Podcast Socials
+    </h2>
+  </div>
+  <div class="social-icons centered padded-1">
+    <a target="_blank" href="#">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a target="_blank" href="#">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a target="_blank" href="#">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a target="_blank" href="#">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+</section>
 
   <!-- Recent Podcasts -->
-<section>
+<section class="padded">
+  <h2>
+    Recently on Jamie's Wee Podcast
+  </h2>
   <div class="grid podcast-loop">
     {% for podcast in paginator.posts %}
-      <div class="col-4_sm-12 padded-1">
+      <div class="ccol-4_md-6_xs-12 padded-1">
         {% include podcast-loop-item.html %}
       </div>
     {% endfor %}
@@ -24,7 +115,6 @@ featured-image_path:
 </section>
 
 <!-- Pagination -->
-
   <div class="centered">
     {% if paginator.previous_page_path != nil %}
     <a class="button" href="{{ paginator.previous_page_path }}">

@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+
+<!-- Reusable Banner -->
+{% include banner.html %}
+
+<!-- this is your podcast layout, each of your individual podcast pages will use this layout as it includes blocks. -->
 <section class="grid padded">
-  <h1 class="h1-alternative padded-1"> {{page.title}} </h1>
-
-<!-- this is your podcast layout, each of your individual podcast pages will use this layout. -->
-
   <div class="col-8_sm-12 post-body padded-1">
     <!-- Page.type is a variable I created to represent either destinations or advice  -->
     <p> <a href="/{{page.type}}" class="category"> {{page.type}} </a> >
@@ -13,6 +14,10 @@ layout: default
       <a href="/archives/{{category | slugify }}" class="category"> {{category}} </a>
       {% endfor %} -->
     </p> <!-- end categories -->
+
+    {% for block in page.page_blocks %}
+     {% include blocks/{{block._id}}.html block=block %}
+    {% endfor %}
 
     <h2> {{page.sub-title}} </h2>
 

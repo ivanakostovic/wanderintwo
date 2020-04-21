@@ -19,6 +19,8 @@ page_blocks:
     text: hey this is a separator section
   - _id: full-width-banner-image
     image_path: /uploads/Komodo Feature.jpg
+  - _id: text
+    text_html:
 accommodation-description: Best places to stay in Gili Trawangan
 affiliate-link: 'https://www.booking.com/'
 accommodations:
@@ -64,3 +66,12 @@ spotlight: true
 posts:
 ---
 
+## This is a test heading
+
+Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshfLorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshfLorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf
+
+## This is another heading 2
+
+Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf&nbsp; &nbsp;v Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshfLorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshfLorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf Lorem ipsum omg hahhjfnkdjsfjs fhsdhfs lkhjflijhf sifkjhdfksh fs ljhfshf
+
+&nbsp;

@@ -59,25 +59,24 @@ layout: default
 
     <!-- sidebar box 1: About Us -->
     <div>
-      <h4> Welcome to Wander In Two </h4>
+      <h4> Welcome to Jamie's Wee Podcast </h4>
       <div class="bg-image">
       </div>
       <div class="padded-bottom-1">
-        <p class="margin-top"> Hi, we are Jamie & Ivana!<br><br>A real and relatable travel couple inspiring others to make their travel dreams a reality
+        <p class="margin-top"> A wee podcast, for big personalities and subjects, sprinkled with a touch of Scottish humour<br><br>Hosted by a mid-30s, weather-beaten, well-travelled Scottish guy who has a few stories to tell<br><br>This is very much a no niche podcast as I look to deep dive into a whole host of different topics such as relationships, blogging, photography, business, social media and more!
         </p>
-        <a class="button" href="/about-us">Read our story</a>
       </div>
     </div>
 
     <!-- sidebar box 2: Recent Posts -->
     <div>
       <h4>
-        Recently on the blog
+        Recently on the podcast
       </h4>
       <div class="grid blog-loop">
-        {% for post in site.posts limit:4 %}
+        {% for podcast in site.podcasts limit:4 %}
         <div class="col-12 padded-bottom-1">
-          {% include post-loop-item.html %}
+          {% include podcast-loop-item.html %}
         </div>
         {% endfor %}
       </div>
